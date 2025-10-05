@@ -330,9 +330,9 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
 
 ## Class 8: Capstone and Reflection
 <details><summary>Present quizzes and take each other's</summary><ul>
-  * have each student briefly present their quiz.
-  * Allow students to do each other's quizzes
-  * discuss what they liked about each other's quizzes
+  <li> have each student briefly present their quiz.
+  <li> Allow students to do each other's quizzes
+  <li> discuss what they liked about each other's quizzes
 </ul></details>
 <details><summary>Discuss what class exercise/assignment was most fun, surprising, or persuasive</summary><ul>
 <li> Was making webpages fun? Creating images? Expressing your self with words and graphics? Brainstorming new products? Something else?
