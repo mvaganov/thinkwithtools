@@ -114,8 +114,7 @@ For each assignment:<br><ul>
 <li> Each student should briefly show their personal webpage, and answer any questions the teacher or other students might have about it.
 </ul></details>
 <details><summary>Learn CSS and layout with <code>&lt;div></code></summary><ul>
-    <li> Write all of the code below, incrementally, from an empty 
-html file.
+    <li> Write all of the code below, incrementally, from an empty .html file.
 <li> Students should do the same with you. Start with the body, without any CSS classes defined.
     <li> View the webpage.
     <li> Add the CSS classes one at a time, viewing the webpage between each addition. <code>&lt;style type="text/css"><br>
