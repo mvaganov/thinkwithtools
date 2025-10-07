@@ -186,14 +186,13 @@ But, does it work yet?<br>
 
 ## Class 3: AI as an Idea Generator
 <details><summary>Review About Me Card</summary><ul>
-<li> Pair up, and explain your character card to one other student.
-<li> The class should reconvene after a short time for group discussion, and each student should briefly show their character card to the entire class.
-<li> Students should be ready to answer any questions about their work.
+<li> Pair up, and explain your character card to one other student. Why did you choose that image? Why did you write that text?
+<li> The class should reconvene after a short time for group discussion, and each student should briefly show their character card to the entire class. Students should be ready to answer any questions about their work.
 </ul></details>
 <details><summary>Explore tables in HTML</summary><ul>
 <li> In class exercise:<ul>
   <li> Share your screen with students
-  <li> Teach basic tables. Use a similar approach to the one for CSS, with the following code (or something similar):<code>
+  <li> Teach basic HTML tables. You can use a similar approach to the one for CSS, with the following code (or something similar):<code>
 &gt;style type="text/css"><br>
 table { border: 1px solid #f00; border-spacing: 5px; }<br>
 td { border: 1px solid black; padding: 10px; }<br>
@@ -211,21 +210,22 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
   </code>
 </ul></details>
 <details><summary>Use AI to brainstorm "10 everyday frustrations" --> filter ideas together</summary><ul>
-<li> Prompt: List 10 everyday frustrations people have that could inspire a product.
-<li> Pick a topic with students, possibly from the list of frustrations, 
-<li> Prompt: Create a table of possible solutions to [insert problem description here]. for each solution, identify practical feasibility (could the product be created) and financial feasibility (could this product be produced cheaply).
+<li> Prompt: List 10 everyday frustrations people have that could inspire a product. Did the LLM miss any important frustrations?
+<li> Pick a topic with students, possibly from the list of frustrations.
+<li> Prompt: Create a table of possible solutions to [insert frustrating problem description here]. for each solution, identify practical use (does the product solve the problem), practical feasibility (could the product actually be created) and financial feasibility (could this product be produced cheaply). Impractical and expensive products are not bad, this is an exercise to judge the AI's brainstorming.
 <li> Show how to use AI image generators to create placeholder images of new products.
 <li> Show how to feed sketches into image generators to make product images with specific details.
 </ul></details>
 <details><summary>Discuss divergent thinking vs. convergent filtering</summary><ul>
 <li> Read through the table with the class. identify which ideas are nonsense, which are promising, and why.
 <li> Identify how the AI is being used for Divergent Thinking (generating different ideas), and your human intuition is being used for Convergent Filtering (recognizing signal in the LLM's noise).
+<li> Note that the intellectual brainstorm work could have happened without the AI, but the AI sped up the process.
 </ul></details>
 <details><summary>How to do convergent filtering with images</summary><ul>
 <li> <a href="https://www.photopea.com/">Photoshop tools</a> can combine and manipulate images. Using AI tools, you can create AI generated image parts, and arrange them in a collage, on different layers and effects, with photoshop.
 </ul></details>
 <details><summary><b>Assignment:</b> Products That Don't Exist (fake product landing page)</summary><ul>
-<li> Create a landing page for a new product that doesn't yet exist. Include images, and text descriptions of the product. Try to make a product that people will want to buy. It's ok if you don't know how to create it.
+<li> Create a landing page for a new product that doesn't yet exist. Include images, and text descriptions of the product. Try to make a product that people will want to buy. It's ok if you don't know how to create it, or if the product is impractical.
 <li> Before starting the assignment, ask students to:<ul>
   <li> Use AI to generate product ideas.
   <li> Consider: could you come up with a better ideas by combining ideas that the AI listed?
@@ -241,17 +241,17 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
 <li> After the review, discuss what the most pursuasive and inspiring things about the pages. Did the AI output surprise anyone?
 </ul></details>
 <details><summary>Use AI to generate fake review sites (good/bad reviews)</summary><ul>
-<li> In class exercise: Have an LLM generate a fake reviews site with fake reveiws. include good reviews and bad reviews
+<li> In class exercise: Have an LLM generate a fake reviews site with fake reveiws, possibly for a class favorite from the ProductsThat Don't Exist. Include good reviews and bad reviews.
 </ul></details>
 <details><summary>Discuss trustworthiness and patterns in reviews</summary><ul>
 <li> Discuss any patterns you can recognize in the reviews.
 <li> Discuss which reviews seem the most trustworthy. Does everyone in class have the same opinions?
 </ul></details>
 <details><summary>Meta-exercise: AI reviewing AI reviews</summary><ul>
-<li> Have the AI review a product based on the reviews of other AI. Is the most recent AI review (the one based on other AI reviews) strange at all? Is there anything factually wrong in the latest reviews?
+<li> Have the AI review a product based on the reviews of other AI. Is the most recent AI review (the one based on other AI reviews) strange at all? Is there anything factually wrong in the latest review when compared to the originalproduct?
 </ul></details>
 <details><summary><b>Assignment: Review the Reviewers (AI comparison site)</b></summary><ul>
-<li> Create a website that reviews and compares different AI tools. Compare at least 3 similar AI tools. Use a table to compare capabilities.
+<li> Create a website that reviews and compares different AI tools. Compare at least 3 similar AI tools. Use a table to compare capabilities. Include an icon for each compared element.
 <li> If the AI generates something funny while you are working, feel free to share it with the class. We're all looking to be inspired by the same kind of work that you are doing!
 </ul></details>
 
@@ -259,12 +259,12 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
 
 ## Class 5: Clarity and Knowledge Representation
 <details><summary>Review Reviewing the Reviewers</summary><ul>
-  <li> have each student identify which AI tool got the best reviews on their review site. ask each student "does the review seem credible?"
-  <li> did anything about the AI output surprise anyone?
+  <li> Have each student identify which AI tool got the best reviews on their review site. Ask each student "Does the review seem credible?"
+  <li> Did anything about the AI output surprise anyone?
 </ul></details>
 <details><summary>Ask AI for step-by-step instructions (simple and complex)</summary><ul>
-<li> Ask the AI how to do something "simple", and provide step by step instructions. for example: "give me instructions for how to make a peanutbutter sandwich".
-<li> Discuss with the class if everything is correct. talk about things the AI may have missed.
+<li> Ask the AI how to do something "simple", and provide step by step instructions. For example: "give me instructions for how to make a peanutbutter sandwich".
+<li> Discuss with the class if everything is correct. Talk about things the AI may have missed.
 <li> ask the AI how to do something more specific that you know how to do, like defeat a difficult boss from your favorite game. if you don't know what to ask, ask the LLM to provide a list of topics that an average human is probably much more knowledgable about than an LLM.
 </ul></details>
 <details><summary>Compare AI steps to human knowledge</summary><ul>
