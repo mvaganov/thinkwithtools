@@ -15,18 +15,18 @@ The class ends by stepping back to look at the bigger picture: the costs, tradeo
   <summary><b>Mental Habits:</b> metacognition, design thinking, skepticism, grit</summary><ul>
   <li> Metacognition: Do I understand the problem? What did I think I was asking the AI for? What do I think the AI thought I asked for? Is there something I need more clarity about to form a better question?
   <li> Design Thinking: What are the goals to achieve? Can those goals be separated into other goals? What is the most important goal? How can we test if the goals are good? How can we achieve those goals? How can we test if our approach is good?
-  <li> Skepticism & Critical Thinking: Is the AI is telling me the truth? How can I test if it is true? Could my prompt be improved? Does this make sense for me to ask? Does this make sense for me to do? Is the AI's suggestion actually good?
+  <li> Skepticism & Critical Thinking: Is the AI telling me the truth? How can I test if it is true? Could my prompt be improved? Does this make sense for me to ask? Does this make sense for me to do? Is the AI's suggestion actually good?
   <li> Grit: Is progress being made toward my goal? Is there a small goal I can achieve next? Can I adjust the goal to be more engaging to me?</ul>
 </details>
 <details><summary><b>Prompt Engineering:</b> goal setting, intentional language, tool literacy, boundary setting</summary><ul>
   <li> Strong goal setting: How can I identify a clear goal for the AI model? How can I use the AI tool to help me understand my own goal?
   <li> Intentional Language Use: What is the purpose I'm trying to convey? What do the individual words mean? How can I use the model to help refine the prompt?
-  <li> Tool Literacy: What are the AI models? What can the models do? How do we use the models well?
+  <li> Tool Literacy: What are the AI models? What can the models do? How do we use the models well? Are there non-LLM tools I can use to improve AI output?
   <li> Boundary Setting: What is not OK to ask the AI (because everything is being recorded)?</ul>
 </details>
 <details><summary><b>Iteration:</b> understanding technology, editing/creating artifacts, debugging</summary><ul>
   <li>Understanding Technology: What does this HTML code do? What is possible for HTML to do? How do I make a webpage on the internet? What is the internet?
-  <li> Editing/Creating Artifacts: Can I using non-AI tools to edit HTML code, images, and other artifacts? What tools can I use? How do I do that? How can I learn to use the tools better?
+  <li> Editing/Creating Artifacts: Can I edit HTML code, images, and other artifacts using non-AI tools? What tools can I use? How do I do that? How can I learn to use the tools better?
   <li> Debugging: What is the problem? How do I solve it? How can I learn how to solve it? How can I understand the problem more clearly?
 </ul></details>
 <details><summary><b>Messaging:</b> persuasion, resilience against manipulation</summary><ul>
@@ -40,7 +40,7 @@ The class ends by stepping back to look at the bigger picture: the costs, tradeo
 <details><summary>Build webpages with AI by using metacognitively rich prompts. Use the critical literacy of Computer Programming to edit, critique, and improve AI output.</summary><ul>
 For each assignment:<br><ul>
 <li>Preparation, before interacting with your AI:<ol>
-  <li> Identify your general goal for the assignment. How do you want to fulfill the requirements?
+  <li> Identify your general goal for the assignment. Think about how you want to fulfill the requirements.
   <li> Write a prompt that you think will generate what you want. Save this prompt, we will try it later.
   <li> Write down, in your own words, what you think this assignment is really asking for.
   <li> Write a your personal goal in doing this assignment if you have any, besides just fulfilling assignment requirements.
