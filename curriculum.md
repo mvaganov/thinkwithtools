@@ -113,11 +113,10 @@ For each assignment:<br><ul>
 <details><summary>Review About Me Page</summary><ul>
 <li> Each student should briefly show their personal webpage, and answer any questions the teacher or other students might have about it.
 </ul></details>
-<details><summary>Learn CSS and layout with <code>&lt;div></code></summary><ul>
-<li> In class exercise:<ul>
-  <li> Teach basic CSS.<ul>
-    <li> Write all of the code below, incrementally.
-    <li> Start with the body, without any CSS classes defined.
+<details><summary>Learn CSS and layout with <code>&lt;div></code></summary><ul>
+    <li> Write all of the code below, incrementally, from an empty 
+html file.
+<li> Students should do the same with you. Start with the body, without any CSS classes defined.
     <li> View the webpage.
     <li> Add the CSS classes one at a time, viewing the webpage between each addition. <code>&lt;style type="text/css"><br>
 h1 {<br>
@@ -164,8 +163,6 @@ But, does it work yet?<br>
     &lt;div class="footer">if you can read this, my HTML works.&lt;/div><br>
   &lt;/div><br>
 &lt;/body></code>
-  </ul>
-</ul>
 </ul></details>
 <details><summary>Hosting images online</summary><ul>
 <li> Show the class how to host an image on the internet in a way that is accessible to your teaching environment (some image sharing websites might be blocked).
