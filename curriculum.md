@@ -4,7 +4,7 @@
 
 This course is about learning how to use Large Language Models (LLMs), not as a crutch, but as a partner in your own thinking. You'll build real webpages by hand, experiment with AI-generated code and design, and most importantly, practice the habits that help you stay in control of your ideas, goals, and creativity.  
 
-In this course, you'll start with the basics of HTML and CSS, then move into projects where AI helps you brainstorm, compare, and refine ideas. You'll make a personal character page, design a landing page for a product that doesn't exist, build a site reviewing AI tools, write a clear "how to" wiki, design an infographic, and finish with an interactive quiz. Along the way, you'll learn to ask better questions, critique what AI gives you, and spot when persuasion or manipulation is at work.
+In this course, you'll start with the basics of HTML and CSS, then move into projects where AI helps you brainstorm, compare, and refine ideas. You'll make a webpage about yourself, design a landing page for a product that doesn't exist, build a site reviewing AI tools, write a clear "how to" wiki, design an infographic, and finish with an interactive quiz. Along the way, you'll learn to ask better questions, critique what AI gives you, and spot when persuasion or manipulation is at work.
 
 The class ends by stepping back to look at the bigger picture: the costs, tradeoffs, and ethics of our modern tech world. By the end, you'll have not just technical skills, but also a personal philosophy for how you want to use AI--so that it makes you sharper, not softer.
 
@@ -13,24 +13,24 @@ The class ends by stepping back to look at the bigger picture: the costs, tradeo
 ## Course Skills
 <details>
   <summary><b>Mental Habits:</b> metacognition, design thinking, skepticism, grit</summary><ul>
-  <li> Metacognition: Do I understand the problem? What did I think I was asking the AI for? What do I think the AI thought I asked for? Is there something I need more clarity about to form a better question?
-  <li> Design Thinking: What are the goals to achieve? Can those goals be separated into other goals? What is the most important goal? How can we test if the goals are good? How can we achieve those goals? How can we test if our approach is good?
-  <li> Skepticism & Critical Thinking: Is the AI telling me the truth? How can I test if it is true? Could my prompt be improved? Does this make sense for me to ask? Does this make sense for me to do? Is the AI's suggestion actually good?
-  <li> Grit: Is progress being made toward my goal? Is there a small goal I can achieve next? Can I adjust the goal to be more engaging to me?</ul>
+  <li> Metacognition: Do I understand the problem? What did I think I was asking the AI for? What do I think the AI thought I asked for? Is there something I need more clarity about to form a better question or better instruction?
+  <li> Design Thinking: What are the goals to achieve? Can those goals be separated into other goals? What is the most important goal? How can I test if the goals are good? What can I try to achieve those goals? How can I test if our approach is good?
+  <li> Skepticism & Critical Thinking: Is the AI telling me the truth? How can I test if it is true? Could my prompt be improved to make the AI more rigorous? Does this even make sense for me to ask? Does this make sense for me to do? Is the AI's suggestion actually good?
+  <li> Grit: Is progress being made toward my goal? Is there a small goal I can achieve next? Can I adjust the goal to be more engaging? Can I adjust the webpage to be more engaging?</ul>
 </details>
 <details><summary><b>Prompt Engineering:</b> goal setting, intentional language, tool literacy, boundary setting</summary><ul>
-  <li> Strong goal setting: How can I identify a clear goal for the AI model? How can I use the AI tool to help me understand my own goal?
+  <li> Strong goal setting: What kinds of goals is the AI good at understanding? How can I identify a clear goal for the AI model? Does it help to identify what is not a goal? How can I use the AI tool to help me understand my own goal?
   <li> Intentional Language Use: What is the purpose I'm trying to convey? What do the individual words mean? How can I use the model to help refine the prompt?
   <li> Tool Literacy: What are the AI models? What can the models do? How do we use the models well? Are there non-LLM tools I can use to improve AI output?
   <li> Boundary Setting: What is not OK to ask the AI (because everything is being recorded)?</ul>
 </details>
 <details><summary><b>Iteration:</b> understanding technology, editing/creating artifacts, debugging</summary><ul>
-  <li>Understanding Technology: What does this HTML code do? What is possible for HTML to do? How do I make a webpage on the internet? What is the internet?
-  <li> Editing/Creating Artifacts: Can I edit HTML code, images, and other artifacts using non-AI tools? What tools can I use? How do I do that? How can I learn to use the tools better?
+  <li>Understanding Technology: What does this HTML code do? What is possible for HTML to do? How is HTML different from CSS, or JavaScript? How do I make a webpage on the internet? What is the internet?
+  <li> Editing/Creating Artifacts: Can I edit HTML code, images, and other artifacts using non-AI tools? What tools can I use? How do I do that? Can AI help me learn to use the tools better?
   <li> Debugging: What is the problem? How do I solve it? How can I learn how to solve it? How can I understand the problem more clearly?
 </ul></details>
 <details><summary><b>Messaging:</b> persuasion, resilience against manipulation</summary><ul>
-  <li> Pursuasion: What do people care about? How can I make someone care about something? Where can I learn more about persuasive messaging?
+  <li> Pursuasion: What do I care about? What do other people care about? How can I make someone care about something? Where can I learn more about persuasive messaging?
   <li> Resilience: What are common messaging tactics that control attention? What messaging tactics work on me?
 </ul></details>
 
