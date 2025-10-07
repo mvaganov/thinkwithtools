@@ -101,17 +101,17 @@ For each assignment:<br><ul>
 <details><summary>Discuss: What did you expect vs. what did you get?</summary><ul>
 </ul></details>
 <details><summary><b>Assignment:</b> About Me Page</summary><ul>
-<li> Write your name in a simple webpage. Add personal information about yourself that you want people to know. Consider what you think is important for other people to know about you.
-<li> Use at least 3 different tags (for example: 'h1' for a title, 'b' to make important things bold, 'img' to include an image about you).
+<li> Write your name in a simple webpage. Add personal information about yourself that you want people to know. Consider what you think is important to you, and what is important for other people to know about you.
+<li> Use at least 3 different tags (for example: 'h1' for a title, 'b' to make important text bold, 'img' to include an image you think is important).
 <li> When you were writing the HTML code, did you imagine what the output would look like? did the output come out like you expected?
-<li> Paste your HTML code into an LLM and ask it to make changes to it. For example "take this webpage and make it look like a modern blog post". Look at the HTML output
+<li> Paste your HTML code into an LLM and ask it to make changes to it. For example "take this webpage and make it look like a modern blog post". Look at the HTML output.
 </ul></details>
 
 ---
 
 ## Class 2: Web Style and Iteration
 <details><summary>Review About Me Page</summary><ul>
-<li> Each student should briefly show their personal webpage, and answer any questions the teacher might have about it.
+<li> Each student should briefly show their personal webpage, and answer any questions the teacher or other students might have about it.
 </ul></details>
 <details><summary>Learn CSS and layout with <code>&lt;div></code></summary><ul>
 <li> In class exercise:<ul>
