@@ -175,12 +175,11 @@ But, does it work yet?<br>
 <li> Cut and paste the HTML page into an LLM. ask the LLM how to modify it for different results (like left-alignment of the title, or different colors)
 <li> Ask the LLM to restyle your page in at least 3 different styles (for example: minimalist, retro, neon). For example: "Restyle this page to have a minimalist aesthetic"
 </ul></details>
-<details><summary>Share work and reflect: How did iteration change the results?</summary><ul>
-</ul></details>
 <details><summary><b>Assignment:</b> About Me Card (stylized character card)</summary><ul>
+<li> Create a character card about yourself, like those used in games. Include a picture and some information about yourself.
 <li> Consider what is the most important thing about you that people should know. Do you have a passion? Do you have a skill you want to be known by? What reputation do you want the world to have about you?
-<li> Feel free to use content from your previous assignment
-<li> You can use the last 'div' example as a starting point for a design/structure
+<li> Feel free to use content from your previous assignment.
+<li> You can use the last 'div' example as a starting point for a design/structure.
 </ul></details>
 
 ---
