@@ -85,12 +85,12 @@ For each assignment:<br><ul>
 <details><summary>Learn basic HTML by hand</summary><ul>
 <li> "Web development with HTML, CSS, and JavaScript is critical literacy in this course. It is true that by the end of the class, the AI will be writing most of your code. However, it is an inescapable fact that these technical skills are required to edit, critique, and improve AI output. web programming is not mechanics that can be ignored, it is the source of your most powerful agency when doing web development."
 <li> "We are going to write HTML by hand, so that you can get a feel for the technology, and understand the output that LLMs give us."
-<li> Have each student create a plain text file, with a .html suffix
-<li> Write "Hello World! This is my first HTML webpage."
-<li> Use bold, italics, underline, and strike tags to change the appearance of words written in the page.
-<li> Add an image. show how the img tag works (src and width/height variables at a minimum)
-<li> Show how the anchor tag works (link to google.com, or some other safe website)
-<li> Show p, br, h1, h2, h3 tags
+<li> Have each student create a plain text file, with a <code>.html</code> suffix
+<li> Write "Hello World! This is my first HTML webpage." Starting from scratch, from an empty file, gives students clarity about how to program, and reduces ambiguity about what code does. Make predicitons about output and test those predictions often, so that students can recognize and get into that habit as well.
+<li> Use <code>b</code>old, <code>i</code>talics, <code>u</code>nderline, and <code>strike</code> tags to change the appearance of words written in the page.
+<li> Add an image. show how the <code>img</code> tag works (<code>src</code> and <code>with</code> or <code>height</code> variables)
+<li> Show how the <code>a</code>nchor tag works (<code>href</code> to google.com, or some other safe website)
+<li> Show <code>p</code>, <code>br</code>, <code>h1</code>, <code>h2</code>, <code>h3</code> tags
 <li> Look at each student's work as they follow along with your tutorial.
 </ul></details>
 <details><summary>Compare your work to AI-generated code</summary><ul>
@@ -99,10 +99,11 @@ For each assignment:<br><ul>
 <li> Ask an LLM to list the basic HTML tags used for formatting, with an example of synta using each tag, and expected output.
 </ul></details>
 <details><summary>Discuss: What did you expect vs. what did you get?</summary><ul>
+<li> Did the LLM use more syntax than you expected? Or less?
 </ul></details>
 <details><summary><b>Assignment:</b> About Me Page</summary><ul>
 <li> Write your name in a simple webpage. Add personal information about yourself that you want people to know. Consider what you think is important to you, and what is important for other people to know about you.
-<li> Use at least 3 different tags (for example: 'h1' for a title, 'b' to make important text bold, 'img' to include an image you think is important).
+<li> Use at least 3 different tags (for example: <code>h1</code> for a title, <code>b</code> to make important text bold, <code>img</code> to include an image you think is important).
 <li> When you were writing the HTML code, did you imagine what the output would look like? did the output come out like you expected?
 <li> Paste your HTML code into an LLM and ask it to make changes to it. For example "take this webpage and make it look like a modern blog post". Look at the HTML output.
 </ul></details>
@@ -113,20 +114,20 @@ For each assignment:<br><ul>
 <details><summary>Review About Me Page</summary><ul>
 <li> Each student should briefly show their personal webpage, and answer any questions the teacher or other students might have about it.
 </ul></details>
-<details><summary>Learn CSS and layout with <code>&lt;div></code></summary><ul>
-    <li> Write all of the code below, incrementally, from an empty .html file.
-<li> Students should do the same with you. Start with the body, without any CSS classes defined.
-    <li> View the webpage.
-    <li> Add the CSS classes one at a time, viewing the webpage between each addition. <code>&lt;style type="text/css"><br>
+<details><summary>Learn CSS and layout with <code>&lt;div></code></summary><ul>
+<li> Write all of the code below, incrementally, from an empty .html file. Just as before, start from scratch, and test expectations often.
+<li> Students should write the same code as you. Ask them to speak up if their output looks incorrect.
+<li> Start with the body, without any CSS classes defined. View the webpage.
+<li> Add the CSS classes one at a time, viewing the webpage between each addition. <br><code>&lt;style type="text/css"><br>
 h1 {<br>
-	font-family: courier, courier-new, consolas, serif;<br>
-	font-size: 20pt;<br>
-	color: blue;<br>
-	border-bottom: 2px dotted blue;<br>
+&nbsp;&nbsp;font-family: courier, courier-new, consolas, serif;<br>
+&nbsp;&nbsp;font-size: 20pt;<br>
+&nbsp;&nbsp;color: blue;<br>
+&nbsp;&nbsp;border-bottom: 2px dotted blue;<br>
 }<br>
 html {<br>
-	font-family: arial, verdana, sans-serif;<br>
-	font-size: 12pt;<br>
+&nbsp;&nbsp;font-family: arial, verdana, sans-serif;<br>
+&nbsp;&nbsp;font-size: 12pt;<br>
 }<br>
 p { color: #3030a0 }<br>
 .redtxt { color : #FF0000; }<br>
@@ -135,9 +136,11 @@ p { color: #3030a0 }<br>
 &lt;/style><br>
 &lt;body><br>
 &lt;h1>Confucius said:&lt;/h1><br>
-&lt;p>If your plan is one year, &lt;span class="bluetxt">plant rice&lt;/span>.<br>If your plan is ten years, &lt;span class="greentxt">plant trees&lt;/span>.<br>If your plan is one hundred years, &lt;span class="redtxt">educate children&lt;/span>.&lt;/p><br>
+&lt;p>If your plan is one year, &lt;span class="bluetxt">plant rice&lt;/span>.<br>
+If your plan is ten years, &lt;span class="greentxt">plant trees&lt;/span>.<br>
+If your plan is one hundred years, &lt;span class="redtxt">educate children&lt;/span>.&lt;/p><br>
 </body></code>
-    <li> Teach basic Div tags. Use a similar approach to the one for CSS (start with basic HTML first, view result, add classes incrementally while refreshing to check results). Use the following code (or something similar):<code>&lt;head><br>
+<li> Teach basic Div tags. Use a similar approach to the one for CSS (start with basic HTML first, view result, add classes incrementally while refreshing to check results). Use the following code (or something similar):<br><code>&lt;head><br>
   &lt;title>Web Development Haiku&lt;/title><br>
   &lt;style type="text/css"><br>
     .footer { border: 2px dotted; border-color: #44f; color: #44f; padding: 5px; text-align: right; }<br>
@@ -151,20 +154,20 @@ p { color: #3030a0 }<br>
   &lt;/style><br>
 &lt;/head><br>
 &lt;body style="background-color: #ffffdd;"><br>
-  &lt;div class="container"><br>
-    &lt;div class="title_area">iStruggle&lt;/div><br>
-    &lt;div class="main_image">&lt;/div><br>
-    &lt;div class="content"><br>
+&nbsp;&nbsp;&lt;div class="container"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="title_area">iStruggle&lt;/div><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="main_image">&lt;/div><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="content"><br>
 This is my webpage&lt;br><br>
 I write whatever I want&lt;br><br>
 But, does it work yet?<br>
-    &lt;/div><br>
-    &lt;div class="footer">if you can read this, my HTML works.&lt;/div><br>
-  &lt;/div><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="footer">if you can read this, my HTML works.&lt;/div><br>
+&nbsp;&nbsp;&lt;/div><br>
 &lt;/body></code>
 </ul></details>
 <details><summary>Hosting images online</summary><ul>
-<li> Show the class how to host an image on the internet in a way that is accessible to your teaching environment (some image sharing websites might be blocked).
+<li> Show the class how to host an image on the internet in a way that is accessible to your teaching environment (some image sharing websites might be blocked). <a href="https://uploadcare.com/pricing/">uploadcare</a> or <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">github</a> might be appropriate.
 <li> If your web traffic is filtered by strict school policies, use an LLM to try to find workagrounds.
 </ul></details>
 <details><summary>Experiment with AI restyling your page in multiple visual themes.</summary><ul>
