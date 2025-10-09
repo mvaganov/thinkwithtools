@@ -23,8 +23,6 @@ Assignments given each week are expected to be done outside of class. Computers 
   <li> For an instructor to expect to teach this course well, they should have familiarity with design thinking, or other rapid prototyping experience.
   <li> Additional notes are included (behind summary expansions like this) by the author. These are to provide details, context, and some suggestions for specific in-class implementations.
   <li> Please contact the course developer at michael.vaganov@gmail.com with feedback.
-  <li> TODO suggested grading ruberic (how much effort did you put into the prompt? did you make manual edits to LLM output?)
-  <li> TODO quiz about how LLMs work, after the Token Vectorization discussion
   </ul>
 </details>
 
@@ -162,6 +160,10 @@ Assignments given each week are expected to be done outside of class. Computers 
 <li> Use at least 3 different tags (for example: <code>h1</code> for a title, <code>b</code> to make important text bold, <code>img</code> to include an image you think is important).
 <li> When you were writing the HTML code, did you imagine what the output would look like? did the output come out like you expected?
 <li> Paste your HTML code into an LLM and ask it to make changes to it. For example "take this webpage and make it look like a modern blog post". Look at the HTML output.
+<li> Be sure to NOT include too much personal information. It is possible for LLMs to leak data, and this information could be used for identity theft in the future.<ul>
+  <li> Avoid sharing your real name, address, phone number, email address, birthdate, middle name, what school you are attending, the names of your pets, names of family members
+  <li> NEVER share passwords, PINs, passport/drivers-license/social-security numbers, bank acount numbers, or any other unique numbers associated with your identity.
+</ul>
 </ul></details>
 
 ---
@@ -341,7 +343,9 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
 </ul></details>
 <details><summary>Discuss what's missing, unclear, or misleading</summary><ul>
 <li> <i>(20 min)</i> Discuss with the class what kinds of things AI seems to be bad at knowing. Compare it to what AI seems to be good at knowing. Try to define what is missing. Is there a common theme? Is there a missing perspective? Is there a kind of information that could be helpful but is absent?
-<li> <i>(20 min)</i> Explain <a href="https://youtu.be/OXICDUqaz5w">Word Vectorization</a>, which provides a foundation to explaining why AI is good at working with ideas as words, and not with real experiences.
+<li> <i>(20 min)</i> Explain <a href="https://youtu.be/OXICDUqaz5w">Word Vectorization</a>, which provides a foundation to explaining why AI is good at working with ideas as words, and not with real experiences.<ul>
+  <li> TODO simple quiz questions to test if students are paying attention. Possibly structure the quiz questions to prompt students to think about how they create meaning and values in their own lives.
+</ul>
 </ul></details>
 <details><summary><b>Assignment:</b> How To Wiki (a peer should be able to follow it)</summary><ul>
 <li> Build a simple wiki-style site explaining how to do something you know well. A peer classmate should be able to follow the instructions.
