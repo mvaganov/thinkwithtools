@@ -251,7 +251,10 @@ But, does it work yet?<br>
 &lt;/body></code>
 </ul></details>
 <details><summary>Hosting images online</summary><ul>
-<li> <i>(2-40 min)</i> Show the class how to host an image on the internet in a way that is accessible to your teaching environment (some image sharing websites might be blocked). <a href="https://uploadcare.com/pricing/">uploadcare</a> or <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">github</a> might be appropriate. Prepare this before class starts; technical difficulties can arise in practice. If your web traffic is filtered by strict school policies, use an LLM to try to find workarounds.
+<li> <i>(2-40 min)</i> Show the class how to host an image on the internet in a way that is accessible to your teaching environment (some image sharing websites might be blocked). <a href="https://uploadcare.com/pricing/">uploadcare</a> or <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">github</a> might be appropriate. Prepare this before class starts; technical difficulties can arise in practice. If your web traffic is filtered by strict school policies, use an LLM to try to find workarounds.<ul>
+ <li> Why can't we just share image files from our own computers with the internet?
+ <li> What is The Internet?
+</ul>
 </ul></details>
 <details><summary>Experiment with AI restyling your page in multiple visual themes.</summary><ul>
 <li> <i>(3 min)</i> Cut and paste the HTML page into an LLM. ask the LLM how to modify it for different results (like left-alignment of the title, or different colors)
