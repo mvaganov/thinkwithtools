@@ -6,7 +6,7 @@ This course is about learning how to use Large Language Models (LLMs), not as a 
 
 You'll learn to evaluate, critique, and direct AI systems. You'll analyze AI output, evaluate its validity, and create original digital works. The course is designed to be neutral toward commercial LLM providers, and realistic about the LLM capabilities.
 
-In this course, you'll start with the basics of HTML and CSS, then move into projects where AI helps you brainstorm, compare, and refine ideas. You'll make a webpage about yourself, design a landing page for a product that doesn't exist, build a site reviewing AI tools, write a clear "how to" wiki, design an infographic, and finish with an interactive quiz. Along the way, you'll learn to ask better questions, critique what AI gives you, and spot when persuasion or manipulation is at work.
+In this course, you'll start with projects exploring the basics of HTML and CSS, then move into projects where AI helps you brainstorm, compare, and refine ideas. You'll make a webpage about yourself, design a landing page for a product that doesn't exist, build a site reviewing AI tools, write a clear "how to" wiki, design an infographic, and finish with an interactive quiz. Along the way, you'll learn to ask better questions, critique what AI gives you, and spot when persuasion or manipulation is at work.
 
 The class ends by stepping back to look at the bigger picture: the costs, tradeoffs, and ethics of our modern tech world. By the end, you'll have technical skills on display in a small protfolio of webpages, and a personal philosophy for how you want to use AI--so that it makes you sharper, not softer.
 
@@ -19,7 +19,7 @@ This course expects each student to use their own computer (or share with a peer
 
 Assignments given each week are expected to be done outside of class. Computers with keyboards and a mouse are recommended for the assignments.
 
-Students attenting the course must be 13 years old or older, and may require special parent permission to use LLMs. Some LLMs have terms of service prohibiting use by minors under the age of 18.
+Students attenting the course must be 13 years old or older. Students under 18 may require special parent permission to use some LLMs. Some LLMs have terms of service prohibiting use by minors under the age of 18.
 
 Before attending class meetings, students must sign or affirm an "AI Use Pledge" that clarifies important course expectations:<ul>
 <li>I will not input personal or identifying data into public AI systems.
@@ -29,10 +29,10 @@ Before attending class meetings, students must sign or affirm an "AI Use Pledge"
 
 <details>
   <summary>This document is a guideline written with humility, accepting that the course is still iterating.</summary><ul>
-  <li> AI technology may advance quickly enough to obsolete the course before it is fully implemented in a class.
-  <li> For an instructor to expect to teach this course well, they should have familiarity with LLMs (as a practical requirement), and Design Thinking or other rapid prototyping experience (as an internalized process, to help iterate this course while administering it). Before teaching this course, a new teacher is advised to ask an LLM to teach them Design Thinking, including thoughts on applying Design Thinking to teaching a new course.
-  <li> Additional notes are included (behind summary expansions like this) by the author. These are to provide details, context, and some suggestions for specific in-class implementations.
-  <li> Please contact the course developer at michael.vaganov@gmail.com with feedback.
+  <li>AI technology may advance quickly enough to obsolete the course before it is fully implemented in a class.
+  <li>For an instructor to expect to teach this course well, they should have familiarity with LLMs (as a practical requirement), and Design Thinking or other rapid prototyping experience (as an internalized process, to help iterate this course while administering it). Before teaching this course, a new teacher is advised to ask an LLM to teach them Design Thinking, including thoughts on applying Design Thinking to teaching a new course.
+  <li>Additional notes are included (behind summary expansions like this) by the author. These are to provide details, context, and some suggestions for specific in-class implementations.
+  <li>Please contact the course developer at michael.vaganov@gmail.com with feedback.
   </ul>
 </details>
 
@@ -41,102 +41,102 @@ Before attending class meetings, students must sign or affirm an "AI Use Pledge"
 ## Course Skills
 <details>
   <summary><b>Mental Habits:</b> metacognition, design thinking, skepticism, grit</summary><ul>
-  <li> Metacognition: Do I understand the problem? What did I think I was asking the AI for? What do I think the AI thought I asked for? Is there something I need more clarity about to form a better question or better instruction?
-  <li> Design Thinking: What are the goals to achieve? Can those goals be separated into other goals? What is the most important goal? How can I test if the goals are good? What can I try to achieve those goals? How can I test if our approach is good?
-  <li> Skepticism & Critical Thinking: Is the AI telling me the truth? How can I test if it is true? Could my prompt be improved to make the AI more rigorous? Does this even make sense for me to ask? Does this make sense for me to do? Is the AI's suggestion actually good?
-  <li> Grit: Is progress being made toward my goal? Is there a small goal I can achieve next? Can I adjust the goal to be more engaging? Can I adjust the webpage to be more engaging?</ul>
+  <li>Metacognition: Do I understand the problem? What did I think I was asking the AI for? What do I think the AI thought I asked for? Is there something I need more clarity about to form a better question or better instruction?
+  <li>Design Thinking: What are the goals to achieve? Can those goals be separated into other goals? What is the most important goal? How can I test if the goals are good? What can I try to achieve those goals? How can I test if our approach is good?
+  <li>Skepticism & Critical Thinking: Is the AI telling me the truth? How can I test if it is true? Could my prompt be improved to make the AI more rigorous? Does this even make sense for me to ask? Does this make sense for me to do? Is the AI's suggestion actually good?
+  <li>Grit: Is progress being made toward my goal? Is there a small goal I can achieve next? Can I adjust the goal to be more engaging? Can I adjust the webpage to be more engaging?</ul>
 </details>
 <details><summary><b>Prompt Engineering:</b> goal setting, intentional language, tool literacy, boundary setting</summary><ul>
-  <li> Strong goal setting: What kinds of goals is the AI good at understanding? How can I identify a clear goal for the AI model? Does it help to identify what is not a goal? How can I use the AI tool to help me understand my own goal?
-  <li> Intentional Language Use: What is the purpose I'm trying to convey? What do the individual words mean? How can I use the model to help refine the prompt?
-  <li> Tool Literacy: What are the AI models? What can the models do? How do we use the models well? Are there non-LLM tools I can use to improve AI output?
-  <li> Boundary Setting: What is not OK to ask the AI? Can companies sell what we write (and read) on the internet?</ul>
+  <li>Strong goal setting: What kinds of goals is the AI good at understanding? How can I identify a clear goal for the AI model? Does it help to identify what is not a goal? How can I use the AI tool to help me understand my own goal?
+  <li>Intentional Language Use: What is the purpose I'm trying to convey? What do the individual words mean? How can I use the model to help refine the prompt?
+  <li>Tool Literacy: What are the AI models? What can the models do? How do we use the models well? Are there non-LLM tools I can use to improve AI output?
+  <li>Boundary Setting: What is not OK to ask the AI? Can companies sell what we write (and read) on the internet?</ul>
 </details>
 <details><summary><b>Iteration:</b> understanding technology, editing/creating artifacts, debugging</summary><ul>
   <li>Understanding Technology: What does this HTML code do? What is possible for HTML to do? How is HTML different from CSS, or JavaScript? How do I make a webpage on the internet? What is the internet?
-  <li> Editing/Creating Artifacts: Can I edit HTML code, images, and other artifacts using non-AI tools? What tools can I use? How do I do that? Can AI help me learn to use the tools better?
-  <li> Debugging: What is the problem? How do I solve it? How can I learn how to solve it? How can I understand the problem more clearly?
+  <li>Editing/Creating Artifacts: Can I edit HTML code, images, and other artifacts using non-AI tools? What tools can I use? How do I do that? Can AI help me learn to use the tools better?
+  <li>Debugging: What is the problem? How do I solve it? How can I learn how to solve it? How can I understand the problem more clearly?
 </ul></details>
 <details><summary><b>Messaging:</b> persuasion, resilience against manipulation</summary><ul>
-  <li> Pursuasion: What do I care about? What do other people care about? How can I make someone care about something? Where can I learn more about persuasive messaging?
-  <li> Resilience: What are common messaging tactics that control attention? What messaging tactics work on me?
+  <li>Pursuasion: What do I care about? What do other people care about? How can I make someone care about something? Where can I learn more about persuasive messaging?
+  <li>Resilience: What are common messaging tactics that control attention? What messaging tactics work on me?
 </ul></details>
 
 ---
 
 ## Major Assignments
 <details><summary>Build webpages with AI by using metacognitively rich prompts. Use the critical literacy of Computer Programming to edit, critique, and improve AI output.</summary><ul>
-<li> Assignments in this class are more like art projects than math assignments. Students should be encouraged to express themselves, and hold their work to a standard defined by the scrutiny of their peers. Suggestions for critique guidelines:<ul>
-  <li> As a group, discuss the page categorically:<ul>
-    <li> Vibe Check: How does it make you feel?
-    <li> Design & Layout: Is the page balanced well? Is there a clear prupose to colors? Is the spacing and typography good? Is there a good visual hierarchy (what catches the eye first, and then what, and then what, ...)? Is the page cohesive?
-    <li> Clarity & Communication: Can we tell what the page is trying to say? Are the ideas easy to grasp? Does the style fit the message?
-    <li> Use of HTML/CSS Fundamentals: Does the structure make sense? Is it readable to make manual edits? 
-    <li> Creativity and Personal Expression: Is the design original or unique? Were there any risks taken that paid off? Is there a notable style? Is there a point of view expressed?
-    <li> Constructive Feedback: What is working well? What could be stronger? Concrete/specific suggestions? <i>Critique = Curiosity + Specificity + Kindness</i>
+<li>Assignments in this class are more like art projects than math assignments. Students should be encouraged to express themselves, and hold their work to a standard defined by the scrutiny of their peers. Suggestions for critique guidelines:<ul>
+  <li>As a group, discuss the page categorically:<ul>
+    <li>Vibe Check: How does it make you feel?
+    <li>Design & Layout: Is the page balanced well? Is there a clear prupose to colors? Is the spacing and typography good? Is there a good visual hierarchy (what catches the eye first, and then what, and then what, ...)? Is the page cohesive?
+    <li>Clarity & Communication: Can we tell what the page is trying to say? Are the ideas easy to grasp? Does the style fit the message?
+    <li>Use of HTML/CSS Fundamentals: Does the structure make sense? Is it readable to make manual edits? 
+    <li>Creativity and Personal Expression: Is the design original or unique? Were there any risks taken that paid off? Is there a notable style? Is there a point of view expressed?
+    <li>Constructive Feedback: What is working well? What could be stronger? Concrete/specific suggestions? <i>Critique = Curiosity + Specificity + Kindness</i>
   </ul>
-  <li> <b>Feel, Communicate, Improve</b>: Each student should give a 3 word critique for each other student. One word for <i>how the page feels</i>, one word for what that student recognizes <i>the page is communicating</i>, and one word for <i>what the page could improve</i> if it had to change one thing.
+  <li><b>Feel, Communicate, Improve</b>: Each student should give a 3 word critique for each other student. One word for <i>how the page feels</i>, one word for what that student recognizes <i>the page is communicating</i>, and one word for <i>what the page could improve</i> if it had to change one thing.
 </ul>
-<li> For each assignment, consider making this outline into a ruberic for grading, or a worksheet for students to fill out with each assignment:<br><ul>
-  <li> Planning:<ol>
-    <li> Explicit goals:
-    <li> Prompt:
-    <li> Extra Meaning:
-    <li> Personal Goals:
-    <li> Additional Questions:
-    <li> Rough Sketch:
+<li>For each assignment, consider making this outline into a ruberic for grading, or a worksheet for students to fill out with each assignment:<br><ul>
+  <li>Planning:<ol>
+    <li>Explicit goals:
+    <li>Prompt:
+    <li>Extra Meaning:
+    <li>Personal Goals:
+    <li>Additional Questions:
+    <li>Rough Sketch:
   </ol>
-  <li> Implementation:<ul>
-    <li> Quality of Results of Prompt Alone:
-    <li> Quality of Results of Prompt & Extra Data:
-    <li> Was the Writing the Extra Data Worth It:
-    <li> How You Improved It:
-    <li> Affirm Ethical AI Use:
+  <li>Implementation:<ul>
+    <li>Quality of Results of Prompt Alone:
+    <li>Quality of Results of Prompt & Extra Data:
+    <li>Was the Writing the Extra Data Worth It:
+    <li>How You Improved It:
+    <li>Affirm Ethical AI Use:
   </ul>
 </ul>
-<li> Planning: preparation before interacting with your AI:<ol>
-  <li> Identify your general goal for the assignment. Think about how you want to fulfill the requirements. Writing notes, diagrams, or mind-maps for yourself may improve your own clarity of thoughts.
-  <li> Write a prompt that you think will generate what you want. Save this prompt, it will be used later.
-  <li> Write down, in your own words, what you think this assignment is really asking for. Are there any important assumptions? Are there any non-obvious goals?
-  <li> Write a your personal goal in doing this assignment if you have any, besides just fulfilling assignment requirements. Do you have any extra creative ambition? Could you use this output for another assignment?
-  <li> Write down at least 3 questions to ask about this assignment. For example:<ul>
-    <li> Do you know how to create the best picture possible to express your ideas? If not, ask about a good approach for selecting a picture.
-    <li> Do you know the latest news about your topic? If not, ask if there is any important recent news about it.
-    <li> Do you want an educated opinion about something related to your topic? If so, ask what you want the opinion about.
-    <li> Do you know if a similar webpage already exists that you can be inspired by? If not, ask if there is such a page.
-    <li> Do you want to know an interesting factoid about a related topic? If so, ask for an interesting factoid about a specific topic.
-    <li> Do you know what it is about your topic that is most interesting or important to most people? If you don't, ask what is the most important or interesting thing about the topic.
-    <li> Do you know the best way to express a specific message you want to share? If not, write your message and ask for alternative wording.
-    <li> ... you can ask an LLM to provide more example questions if you need more questions.
+<li>Planning: preparation before interacting with your AI:<ol>
+  <li>Identify your general goal for the assignment. Think about how you want to fulfill the requirements. Writing notes, diagrams, or mind-maps for yourself may improve your own clarity of thoughts.
+  <li>Write a prompt that you think will generate what you want. Save this prompt, it will be used later.
+  <li>Write down, in your own words, what you think this assignment is really asking for. Are there any important assumptions? Are there any non-obvious goals?
+  <li>Write a your personal goal in doing this assignment if you have any, besides just fulfilling assignment requirements. Do you have any extra creative ambition? Could you use this output for another assignment?
+  <li>Write down at least 3 questions to ask about this assignment. For example:<ul>
+    <li>Do you know how to create the best picture possible to express your ideas? If not, ask about a good approach for selecting a picture.
+    <li>Do you know the latest news about your topic? If not, ask if there is any important recent news about it.
+    <li>Do you want an educated opinion about something related to your topic? If so, ask what you want the opinion about.
+    <li>Do you know if a similar webpage already exists that you can be inspired by? If not, ask if there is such a page.
+    <li>Do you want to know an interesting factoid about a related topic? If so, ask for an interesting factoid about a specific topic.
+    <li>Do you know what it is about your topic that is most interesting or important to most people? If you don't, ask what is the most important or interesting thing about the topic.
+    <li>Do you know the best way to express a specific message you want to share? If not, write your message and ask for alternative wording.
+    <li>... you can ask an LLM to provide more example questions if you need more questions.
   </ul>
-  <li> Draw an outline of the web page you want to meet the assignment. There are multiple ways you could do this:<ul>
-    <li> Use a physical paper with a pen or pencil to sketch boxes for each area of your webpage, and label what each box is for. Take a digital picture of this sketch, with a cell phone or laptop webcam.
-    <li> Draw a picture using a simple graphics program, like MSPaint on Windows.
-    <li> Use text boxes in a word processor or presentation software and then take a screenshot.
+  <li>Draw an outline of the web page you want to meet the assignment. There are multiple ways you could do this:<ul>
+    <li>Use a physical paper with a pen or pencil to sketch boxes for each area of your webpage, and label what each box is for. Take a digital picture of this sketch, with a cell phone or laptop webcam.
+    <li>Draw a picture using a simple graphics program, like MSPaint on Windows.
+    <li>Use text boxes in a word processor or presentation software and then take a screenshot.
   </ul>
 </ol>
-<li> Implementation: After preparation steps:<ul>
-  <li> Imagine what you expect the AI to do. You don't need to write this down, but writing it can help your thought process.<ul>
-    <li> What kind of thing will it say?
-    <li> What questions will it answer?
-    <li> Will it seemingly ignore any part of your prompt?
+<li>Implementation: After preparation steps:<ul>
+  <li>Imagine what you expect the AI to do. You don't need to write this down, but writing it can help your thought process.<ul>
+    <li>What kind of thing will it say?
+    <li>What questions will it answer?
+    <li>Will it seemingly ignore any part of your prompt?
   </ul>
-  <li> Give the LLM your prompt from step 2. Evaluate the LLM's output<ul>
-    <li> Is it good?
-    <li> Does it do everything you want?
+  <li>Give the LLM your prompt from step 2. Evaluate the LLM's output<ul>
+    <li>Is it good?
+    <li>Does it do everything you want?
   </ul>
-  <li> Consider the preparation work you did before sharing the prompt with the LLM. In a new AI window, give the background information from step 3, your goal(s) from step 4, and the questions you wrote for step 5. Also, take the picture of your outline from step 6 and feed that image into the LLM. After providing all of this input, give it your prompt from step 2 (or a modified version of that prompt if it seems appropriate). Evaluate the output.
-  <li> Compare the output from the first prompt that didn't contain any of your other thoughts or goals to the second prompt that did. Was the different output worth the extra effort?
-  <li> Intellectual Property is a complex topic when it comes to AI. It is a best practice to make your own modification to AI results before posting it as your own. Making your own modifications makes the work "Transformative" instead of "Derivative". This distinction is important, because Transformative works are "Fair Use", and do not require special copyright permissions. Parody is also considered "Fair Use". You should treat AI generated results as drafts, and you should improve the work with your own input.
-  <li> Before submitting or sharing any assignments, verify the following considerations were taken into account:<ul>
-    <li> Privacy: "Did I share anything personal?"
-    <li> Attribution: "Do I know where this content came from (is it Fair Use)?"
-    <li> Truthfulness: "Can I verify claims? Or is this clearly Parody?"
+  <li>Consider the preparation work you did before sharing the prompt with the LLM. In a new AI window, give the background information from step 3, your goal(s) from step 4, and the questions you wrote for step 5. Also, take the picture of your outline from step 6 and feed that image into the LLM. After providing all of this input, give it your prompt from step 2 (or a modified version of that prompt if it seems appropriate). Evaluate the output.
+  <li>Compare the output from the first prompt that didn't contain any of your other thoughts or goals to the second prompt that did. Was the different output worth the extra effort?
+  <li>Intellectual Property is a complex topic when it comes to AI. It is a best practice to improve or make your own modification to AI results before posting it as your own, to avoid many Intellectual Property problems. Making your own modifications makes the work "Transformative" instead of "Derivative". This distinction is important, because Transformative works are "Fair Use", and do not require special copyright permissions (Parody, obvious lies made for comedic effect, is also considered "Fair Use").
+  <li>Before submitting or sharing any assignments, verify the following considerations were taken into account:<ul>
+    <li>Privacy: "Did I share anything personal?"
+    <li>Attribution: "Do I know where this content came from (is it Fair Use)?"
+    <li>Truthfulness: "Can I verify claims? Or is this clearly Parody?"
   </ul>
 </ul>
-<li> Be prepared to share your prompts and the LLM's webpage results with the class during the next class meeting. Each assignment may have additional asks which you should also be prepared for during your brief presentation.
-<li> Edit the generated HTML or CSS to tweak the results. Feel free to ask the LLM to make the changes for you, or for syntax help so you can change things yourself.
-<li> Focus on essential deliverables for each assignment. <i>Don't make it perfect, make it clear.>/i>
+<li>Be prepared to share your prompts and the LLM's webpage results with the class during the next class meeting. Each assignment may have additional asks which you should also be prepared for during your brief presentation.
+<li>Edit the generated HTML or CSS to tweak the results. Feel free to ask the LLM to make the changes for you, or for syntax help so you can change things yourself. It better to make the changes yourself, for creative practice, for Transformative Fair Use, and for continuous engagement of your own mind, which will improve final work quality.
+<li>These assignments can become very time consuming if students focus on perfection. Instead, focus on engaging your mind on essential deliverables for each assignment. <i>Don't make it perfect, make it clear.</i>
 </ul></details>
 
 1. **About Me Page** - Build a personal webpage about yourself using a pseudonym.  
@@ -153,35 +153,35 @@ Before attending class meetings, students must sign or affirm an "AI Use Pledge"
 ## Section 1: Web Foundations and Metacognition
 <!-- ~60-110 min -->
 <details><summary>Learn basic HTML by hand</summary><ul>
-<li> <i>(5 min)</i> Introduce the importancs of web programming. "Web development with HTML, CSS, and JavaScript is critical literacy in this course. It is true that by the end of the class, the AI will be writing most of your code. However, it is an inescapable fact that these technical skills are required to edit, critique, and improve AI output. web programming is not mechanics that can be ignored, it is the source of your most powerful agency when doing web development."<br>
+<li><i>(5 min)</i> Introduce the importancs of web programming. "Web development with HTML, CSS, and JavaScript is critical literacy in this course. It is true that by the end of the class, the AI will be writing most of your code. However, it is an inescapable fact that these technical skills are required to edit, critique, and improve AI output. web programming is not mechanics that can be ignored, it is the source of your most powerful agency when doing web development."<br>
 "We are going to write HTML by hand, so that you can get a feel for the technology, and understand the output that LLMs give us."
-<li> <i>(2 min)</i> Have each student create a plain text file, with a <code>.html</code> suffix
-<li> <i>(30 min)</i> Write "Hello World! This is my first HTML webpage." Starting from scratch, from an empty file with some understandable text, add HTML tags one at a time. This will give students clarity about how to program, and dispel some ambiguity about what code does. Make predicitons about output and test those predictions often, so that students can recognize and get into that habit as well.<ul>
-<li> Use <code>b</code>old, <code>i</code>talics, <code>u</code>nderline, and <code>strike</code> tags to change the appearance of words written in the page.
-<li> Add an image. show how the <code>img</code> tag works (<code>src</code> and <code>with</code> or <code>height</code> variables)
-<li> Show how the <code>a</code>nchor tag works (<code>href</code> to google.com, or some other safe website)
-<li> Show <code>p</code>, <code>br</code>, <code>h1</code>, <code>h2</code>, <code>h3</code> tags
+<li><i>(2 min)</i> Have each student create a plain text file, with a <code>.html</code> suffix
+<li><i>(30 min)</i> Write "Hello World! This is my first HTML webpage." Starting from scratch, from an empty file with some understandable text, add HTML tags one at a time. This will give students clarity about how to program, and dispel some ambiguity about what code does. Make predicitons about output and test those predictions often, so that students can recognize and get into that habit as well.<ul>
+<li>Use <code>b</code>old, <code>i</code>talics, <code>u</code>nderline, and <code>strike</code> tags to change the appearance of words written in the page.
+<li>Add an image. show how the <code>img</code> tag works (<code>src</code> and <code>with</code> or <code>height</code> variables)
+<li>Show how the <code>a</code>nchor tag works (<code>href</code> to google.com, or some other safe website)
+<li>Show <code>p</code>, <code>br</code>, <code>h1</code>, <code>h2</code>, <code>h3</code> tags
 <li> Look at each student's work as they follow along with your tutorial.
 </ul>
 </ul></details>
 <details><summary>Compare your work to AI-generated code</summary><ul>
-<li> <i>(2 min)</i> Ask each student to "imagine what is the simplest HTML webpage you can make." Have them describe their expectation to a peer.
-<li> <i>(2 min)</i> Have each student prompt an LLM "<code>What's the simplest HTML webpage you can make?</code>" How was it different from expectations?
-<li> <i>(2 min)</i> Ask an LLM to list the basic HTML tags used for formatting, with an example of synta using each tag, and expected output.
+<li><i>(2 min)</i> Ask each student to "imagine what is the simplest HTML webpage you can make." Have them describe their expectation to a peer.
+<li><i>(2 min)</i> Have each student prompt an LLM "<code>What's the simplest HTML webpage you can make?</code>" How was it different from expectations?
+<li><i>(2 min)</i> Ask an LLM to list the basic HTML tags used for formatting, with an example of syntax using each tag, and expected output.
 </ul></details>
 <details><summary>Discuss AI Output: What did you get?</summary><ul>
 <li> <i>(10 min)</i> Discuss: Did it explain it's thinking? Did the LLM output more HTML syntax than you expected? Or less?
-<li> <i>(5-40 min)</i> Try a different LLM and see if the results are different. Here are the best LLMs as of the writing of this document: <a href="https://chatgpt.com/">ChatGPT</a>, <a href="https://claude.ai/">Claude</a> (age 18+), <a href="https://deepseek.ai/">Deepseek</a> (age 18+), <a href="https://gemini.google.com/">Gemini</a>, <a href="https://grok.com/">Grok</a>. Encourage students to try each one at some point during the class. Because of the rate of change in the AI industry, expect this list of recommended LLMs to change during the class. Be prepared to research a better list before class starts. As a baseline, ChatGPT is likely to be the best option, since OpenAI is an AI product focused company, and as of October 2025, it is an outlier in how extremely well funded it is, with clear plans to develop robust infrastructure to support its popularity. 
-<li> <i>(2 min)</i> Using a chat program or LMS that the entire class has access to, have each student cut-and-paste their favorite sentence generated by an LLM from today's exercises.
+<li><i>(5-40 min)</i> Try a different LLM and see if the results are different. Here are the best LLMs as of the writing of this document: <a href="https://chatgpt.com/">ChatGPT</a>, <a href="https://claude.ai/">Claude</a> (age 18+), <a href="https://deepseek.ai/">Deepseek</a> (age 18+), <a href="https://gemini.google.com/">Gemini</a>, <a href="https://grok.com/">Grok</a>. Encourage students to try each one at some point during the class. Because of the rate of change in the AI industry, expect this list of recommended LLMs to change during the class. Be prepared to research a better list before class starts. As a baseline, ChatGPT is likely to be the best option, since OpenAI is an AI product focused company, and as of October 2025, it is an outlier in how extremely well funded it is, with clear plans to develop robust infrastructure to support its popularity. 
+<li><i>(2 min)</i> Using a chat program or LMS that the entire class has access to, have each student cut-and-paste their favorite sentence generated by an LLM from today's exercises.
 </ul></details>
 <details><summary><b>Assignment:</b> About Me Page</summary><ul>
-<li> Write your pseudonym (fake name) in a simple webpage. Add personal information about yourself that you want people to know (but not sensitive identity information). Consider what you think is important to you, and what is important for other people to know about you.
-<li> Use at least 3 different tags (for example: <code>h1</code> for a title, <code>b</code> to make important text bold, <code>img</code> to include an image you think is important).
-<li> When you were writing the HTML code, did you imagine what the output would look like? did the output come out like you expected?
-<li> Paste your HTML code into an LLM and ask it to make changes to it. For example "take this webpage and make it look like a modern blog post". Look at the HTML output.
-<li> Be sure to NOT include too much personal information. It is possible for LLMs to leak data, and this information could be used for identity theft in the future.<ul>
-  <li> Avoid sharing your real name, address, phone number, email address, birthdate, middle name, what school you are attending, the names of your pets, names of family members
-  <li> NEVER share passwords, PINs, passport/drivers-license/social-security numbers, bank acount numbers, or any other unique numbers associated with your identity.
+<li>Write your pseudonym (fake name) in a simple webpage. Add personal information about yourself that you want people to know (but not sensitive identity information). Consider what you think is important to you, and what is important for other people to know about you.
+<li>Use at least 3 different tags (for example: <code>h1</code> for a title, <code>b</code> to make important text bold, <code>img</code> to include an image you think is important).
+<li>When you were writing the HTML code, did you imagine what the output would look like? did the output come out like you expected?
+<li>Paste your HTML code into an LLM and ask it to make changes to it. For example "take this webpage and make it look like a modern blog post". Look at the HTML output to understand it. Test your understanding with small edits.
+<li>Be sure to NOT include too much personal information. It is possible for LLMs to leak data, and this information could be used for identity theft in the future.<ul>
+  <li>Avoid sharing your real name, address, phone number, email address, birthdate, middle name, what school you are attending, the names of your pets, names of family members
+  <li>NEVER share passwords, PINs, passport/drivers-license/social-security numbers, bank acount numbers, or any other unique numbers associated with your identity.
 </ul>
 </ul></details>
 
@@ -190,13 +190,13 @@ Before attending class meetings, students must sign or affirm an "AI Use Pledge"
 ## Section 2: Web Style and Iteration
 <!-- ~60-120 min -->
 <details><summary>Review About Me Page</summary><ul>
-<li> <i>(5-30 min)</i> Each student should briefly show their personal webpage, and answer any questions the teacher or other students might have about it.
+<li><i>(5-30 min)</i> Each student should briefly show their personal webpage, and answer any questions the teacher or other students might have about it.
 </ul></details>
 <details><summary>Learn CSS and layout with <code>&lt;div></code></summary><ul>
-<li> <i>(20 min)</i> Write all of the CSS exaple code below, incrementally, from an empty .html file. Just as before, start from scratch, and test expectations often.<ul>
-<li> Students should write the same code as you. Ask them to speak up if their output looks incorrect. It is critical that students have a strong baseline of understanding how typed syntax creates web artifacts.
-<li> Start with the body, without any CSS classes defined. View the webpage.
-<li> Add the CSS classes one at a time, viewing the webpage between each addition.<br><code>
+<li><i>(20 min)</i> Write all of the CSS exaple code below, incrementally, from an empty .html file. Just as before, start from scratch, and test expectations often.<ul>
+<li>Students should write the same code as you. Ask them to speak up if their output looks incorrect. It is critical that students have a strong baseline of understanding how typed syntax creates web artifacts.
+<li>Start with the body, without any CSS classes defined. View the webpage.
+<li>Add the CSS classes one at a time, viewing the webpage between each addition.<br><code>
 &lt;body><br>
 &nbsp;&nbsp;&lt;h1>Confucius said:&lt;/h1><br>
 &nbsp;&nbsp;&lt;p><br>
@@ -223,7 +223,7 @@ p { color: #3030a0 }<br>
 &lt;/style><br>
 </code>
 </ul>
-<li> <i>(20 min)</i> Teach basic Div tags. Use a similar approach to the one for CSS (start with basic HTML first, view result, add classes incrementally while refreshing to check results). Use the following code (or something similar):<br><code>
+<li><i>(20 min)</i> Teach basic Div tags. Use a similar approach to the one for CSS (start with basic HTML first, view result, add classes incrementally while refreshing to check results). Use the following code (or something similar):<br><code>
 &lt;head><br>
 &nbsp;&nbsp;&lt;title>Web Development Haiku&lt;/title><br>
 &nbsp;&nbsp;&lt;style type="text/css"><br>
@@ -251,22 +251,22 @@ But, does it work yet?<br>
 &lt;/body></code>
 </ul></details>
 <details><summary>Hosting images online</summary><ul>
-<li> <i>(2-40 min)</i> Show the class how to host an image on the internet in a way that is accessible to your teaching environment (some image sharing websites might be blocked). <a href="https://uploadcare.com/pricing/">uploadcare</a> or <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">github</a> might be appropriate. Prepare this before class starts; technical difficulties can arise in practice. If your web traffic is filtered by strict school policies, use an LLM to try to find workarounds.<ul>
- <li> Why can't we just share image files from our own computers with the internet?
- <li> What is The Internet?
+<li><i>(2-40 min)</i> Show the class how to host an image on the internet in a way that is accessible to your teaching environment (some image sharing websites might be blocked). <a href="https://uploadcare.com/pricing/">uploadcare</a> or <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">github</a> might be appropriate. Prepare this before class starts; technical difficulties can arise in practice. If your web traffic is filtered by strict school policies, use an LLM to try to find workarounds.<ul>
+ <li>Why can't we just share image files from our own computers with the internet?
+ <li>What is The Internet?
 </ul>
 </ul></details>
 <details><summary>Experiment with AI restyling your page in multiple visual themes.</summary><ul>
-<li> <i>(3 min)</i> Cut and paste the HTML page into an LLM. ask the LLM how to modify it for different results (like left-alignment of the title, or different colors)
-<li> <i>(2 min)</i> Ask the LLM to restyle your page in at least 3 different styles (for example: minimalist, retro, neon). For example: "Restyle this page to have a minimalist aesthetic".
-<li> <i>(2 min)</i> Using a chat program or LMS that the entire class has access to, have each student cut-and-paste their favorite sentence generated by an LLM from today's exercises.
+<li><i>(3 min)</i> Cut and paste the HTML page into an LLM. ask the LLM how to modify it for different results (like left-alignment of the title, or different colors)
+<li><i>(2 min)</i> Ask the LLM to restyle your page in at least 3 different styles (for example: minimalist, retro, neon). For example: "Restyle this page to have a minimalist aesthetic".
+<li><i>(2 min)</i> Using a chat program or LMS that the entire class has access to, have each student cut-and-paste their favorite sentence generated by an LLM from today's exercises.
 </ul></details>
 <details><summary><b>Assignment:</b> About Me Card (stylized character card)</summary><ul>
-<li> Create a character card about yourself, like those used in games. Include a picture and some information about yourself.
-<li> Consider what is the most important thing about you that people should know. Do you have a passion? Do you have a skill you want to be known by? What reputation do you want the world to have about you?
-<li> Feel free to use content from your previous assignment.
-<li> You can use the last 'div' example as a starting point for a design/structure.
-<li> Use an LLM to restyle the page with a new theme. Make at least one manual edit to the CSS of your favorite styled webpage.
+<li>Create a character card about yourself, like those used in games. Include a picture and some information about yourself.
+<li>Consider what is the most important thing about you that people should know. Do you have a passion? Do you have a skill you want to be known by? What reputation do you want the world to have about you?
+<li>Feel free to use content from your previous assignment.
+<li>You can use the last 'div' example as a starting point for a design/structure.
+<li>Use an LLM to restyle the page with a new theme. Make at least one manual edit to the CSS of your favorite styled webpage.
 </ul></details>
 
 ---
@@ -274,11 +274,11 @@ But, does it work yet?<br>
 ## Section 3: AI as an Idea Generator
 <!-- ~76-121 min -->
 <details><summary>Review About Me Card</summary><ul>
-<li> <i>(5 min)</i> Pair up, and explain your character card to one other student. Why did you choose that image? Why did you write that text? What did you modify from any LLM generated output?
-<li> <i>(15 min)</i> The class should reconvene after a short time for group discussion, and each student should briefly show their character card to the entire class. Students should be ready to answer any questions about their work.
+<li><i>(5 min)</i> Pair up, and explain your character card to one other student. Why did you choose that image? Why did you write that text? What did you modify from any LLM generated output?
+<li><i>(15 min)</i> The class should reconvene after a short time for group discussion, and each student should briefly show their character card to the entire class. Students should be ready to answer any questions about their work.
 </ul></details>
 <details><summary>Learn tables in HTML</summary><ul>
-  <li> <i>(15 min)</i> Teach basic HTML tables. You can use a similar approach to the one for CSS, with the following code (or something similar):<code><br>
+  <li><i>(15 min)</i> Teach basic HTML tables. You can use a similar approach to the one for CSS, with the following code (or something similar):<code><br>
 &lt;table><br>
 &nbsp;&nbsp;&lt;tr><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;th>First&lt;/th>&lt;th>Last&lt;/th>&lt;th>First Company&lt;/th><br>
@@ -296,37 +296,37 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
   </code>
 </ul></details>
 <details><summary>Use AI to brainstorm "10 everyday frustrations" --> filter ideas together</summary><ul>
-<li> <i>(10-20 min)</i> Prompt: <code>List 10 everyday frustrations people have that could inspire a product.</code><ul>
-  <li> Have different students generate the list with different LLMs. Determine with the class what the most compelling ideas are. Consider assigning roles to the AI to focus it's thinking.  For example:<ul>
-    <li> <code>You are a pragmatic, fiscally conservative product developer. List 10 everyday frustrations that can be solved with a product that costs less than $5 to manufacture.</code>
-    <li> <code>You are a forward-thinking techno-utopian product designer. List frustrations you expect people will have with new technology expected within the next 1 to 5 years.</code>
-    <li> <code>You are a mechanically inclined DIYer with expert 3D printing skills. List the top 10 product ideas that people in your hackerspace have been asking you to build a product for. Do not include ethically dubious product ideas.</code>
+<li><i>(10-20 min)</i> Prompt: <code>List 10 everyday frustrations people have that could inspire a product.</code><ul>
+  <li>Have different students generate the list with different LLMs. Determine with the class what the most compelling ideas are. Consider assigning roles to the AI to focus it's thinking. For example:<ul>
+    <li><code>You are a pragmatic, fiscally conservative product developer. List 10 everyday frustrations that can be solved with a product that costs less than $5 to manufacture.</code>
+    <li><code>You are a forward-thinking techno-utopian product designer. List frustrations you expect people will have with new technology expected within the next 1 to 5 years.</code>
+    <li><code>You are a mechanically inclined DIYer with expert 3D printing skills. List the top 10 product ideas that people in your hackerspace have been asking you to build a product for. Do not include ethically dubious product ideas.</code>
   </ul>
-  <li> Did the LLMs miss any important frustrations that the students are focused on?
-  <li> Pick a topic with students, possibly from the list of frustrations.
+  <li>Did the LLMs miss any important frustrations that the students are focused on?
+  <li>Pick a topic with students, possibly from the list of frustrations.
 </ul>
-<li> <i>(10-20 min)</i> Example prompt: <code>Create a table of possible new product solutions to [insert frustrating problem description here]. For each new solution, identify practical use (does the new product solve the problem), practical feasibility (could the new product actually be created) and financial feasibility (could this new product be produced cheaply).</code><ul>
-<li> Impractical and expensive products are not bad output, this is an exercise to judge the AI's brainstorming and evaluation.
-<li> Show how to use AI image generators to create placeholder images of new products.
-<li> Show how to feed sketches into image generators to make product images with specific details.
+<li><i>(10-20 min)</i> Example prompt: <code>Create a table of possible new product solutions to [insert frustrating problem description here]. For each new solution, identify practical use (does the new product solve the problem), practical feasibility (could the new product actually be created) and financial feasibility (could this new product be produced cheaply).</code><ul>
+<li>Impractical and expensive products are not bad output, this is an exercise to judge the AI's brainstorming and evaluation.
+<li>Show how to use AI image generators to create placeholder images of new products.
+<li>Show how to feed sketches into image generators to make product images with specific details.
 </ul>
 </ul></details>
 <details><summary>Discuss divergent thinking vs. convergent filtering</summary><ul>
-<li> <i>(2 min)</i> Identify that as you have been reading lists and tables generated by AI, you have been evaluating which ideas are nonsense, and which are promising.
-<li> <i>(2 min)</i> Identify how the AI is being used for Divergent Thinking (generating different ideas), and your human intuition is being used for Convergent Filtering (recognizing signal in the LLMs' noise).
-<li> <i>(5-10 min)</i> Discuss: Were there any ideas that seem like no person could have thought of them? Did the LLM provide an real "creative" value? Did it do much more than organize thoughts? Is organizing thoughts enough value to justify the time cost of using AI for brainstorming? Imagine 2 different teams: one that uses AI for brainstorming, and one that doesn't. Which team will have more ideas? Which team will be able to implement their ideas better?
-<li> <i>(2 min)</i> Have each student cut-and-paste what they think the worst idea is that the AI generated from today.
+<li><i>(2 min)</i> Identify that as you have been reading lists and tables generated by AI, you have been evaluating which ideas are nonsense, and which are promising.
+<li><i>(2 min)</i> Identify how the AI is being used for Divergent Thinking (generating different ideas), and your human intuition is being used for Convergent Filtering (recognizing signal in the LLMs' noise). Remind students that humans should include their ideas during generation, to help prompt and guide the AI, and to maintain intellectual engagement with the process.
+<li><i>(5-10 min)</i> Discuss: Were there any ideas that seem like no person could have thought of them? Did the LLM provide an real "creative" value? Did it do much more than organize thoughts? Is organizing thoughts enough value to justify the time cost of using AI for brainstorming? Imagine 2 different teams: one that uses AI for brainstorming, and one that doesn't. Which team will have more ideas? Which team will be able to implement their ideas better?
+<li><i>(2 min)</i> Have each student cut-and-paste what they think the worst idea is that the AI generated from today.
 </ul></details>
 <details><summary>Webpage hosting</summary><ul>
-  <li> <i>(10-30 min)</i> Show the class how to host webpages on the internet. <a gref="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">Github</a> is a reliable host for simple web pages. There are almost certainly others as well. <h1>This Requires Preparation Well Before Class.</h1> Test this in an environment as close to the student's environment as possible. Use an LLM to determine if there is an easier method for students to have their webpages hosted. Explain that these webpages will be used in a public portfolio, which students can share with their friends and parents, and use as skill advertisement to future employers.</ul></details>
+  <li><i>(10-30 min)</i> Show the class how to host webpages on the internet. <a gref="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">Github</a> is a reliable host for simple web pages. There are almost certainly others as well. <h1>This Requires Preparation Well Before Class.</h1> Test this in an environment as close to the student's environment as possible. Use an LLM to determine if there is an easier method for students to have their webpages hosted. Explain that these webpages will be used in a public portfolio, which students can share with their friends and parents, and use as skill advertisement to future employers.</ul></details>
 <details><summary><b>Assignment:</b> Products That Don't Exist (fake product landing page)</summary><ul>
-<li> Create a landing page for a new product that doesn't yet exist. Include images, and text descriptions of the product. Try to make a product that people will want to buy. It's ok if you don't know how to create it, or if the product is impractical.
-<li> Before starting the assignment, ask students to:<ul>
-  <li> Consider: could you come up with a better ideas by combining ideas that the AI listed?
-  <li> After selecting a product to make your page about, ask a peer student or the teacher for their thoughts about your idea.
-  <li> When generating the image for your product, use a sketch or draft image as part of the prompt.
-  <li> You will be asked to present your product. During your presentation, be ready to identify at least one thing you removed/replaced from the LLMs generated output.
-<li> Host this page on the internet, so it can be shared easily in the next class.
+<li>Create a landing page for a new product that doesn't yet exist. Include images, and text descriptions of the product. Try to make a product that people will want to buy. It's ok if you don't know how to create it, or if the product is impractical.
+<li>Before starting the assignment, ask students to:<ul>
+  <li>Consider: could you come up with a better ideas by combining ideas that the AI listed?
+  <li>After selecting a product to make your page about, ask a peer student or the teacher for their thoughts about your idea.
+  <li>When generating the image for your product, use a sketch or draft image as part of the prompt.
+  <li>You will be asked to present your product. During your presentation, be ready to identify at least one thing you removed/replaced from the LLMs generated output.
+<li>Host this page on the internet, so it can be shared easily in the next class.
 </ul>
 </ul></details>
 
@@ -335,19 +335,19 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
 ## Section 4: Trust, Persuasion, and AI Reviews
 <!-- ~84-104 min -->
 <details><summary>Review Products That Don't Exist</summary><ul>
-<li> <i>(2 min)</i> Before reviewing assignments from the previous class, ask the students to make note of what is inspiring or pusuasive about the web pages. Also ask them to be ready to explain what they removed/replaced from the LLM generated content.
-<li> <i>(20 min)</i> Review the pages with students, asking each one about how they altered the LLM output. After the review, discuss what the most pursuasive and inspiring things about the pages. Did the AI output surprise anyone?
+<li><i>(2 min)</i> Before reviewing assignments from the previous class, ask the students to make note of what is inspiring or pusuasive about the web pages. Also ask them to be ready to explain what they removed/replaced from the LLM generated content.
+<li><i>(20 min)</i> Review the pages with students, asking each one about how they altered the LLM output. After the review, discuss what the most pursuasive and inspiring things about the pages. Did the AI output surprise anyone?
 </ul></details>
 <details><summary>Use AI to generate fake review sites (good/bad reviews)</summary><ul>
-<li> <i>(20 min)</i> In class exercise: Have an LLM generate a fake reviews site with fake reveiws, possibly for a class favorite from the Products That Don't Exist. Have the LLM include good reviews and bad reviews. Generate the fake review text seperately from the page. Use at least 3 different prompts, with specific outcomes. For example:<ul>
-  <li> "Write 5 negative and 5 positive reviews for [product name], which is [product description]."
-  <li> "Create a detailed product review of [product name], praising the nuanced quaility of the product design, and complaining about integration with a related niche product."
-  <li> "Review [product name] with a superfluously positive perspective, giving detailed affirmations of it's design and fit for purpose. The last 10% of the review should reveal a hilarious usecase that the product is not at all intended for, but the reviewer is apparently satisfied with."
+<li><i>(20 min)</i> In class exercise: Have an LLM generate a fake reviews site with fake reveiws, possibly for a class favorite from the Products That Don't Exist. Have the LLM include good reviews and bad reviews. Generate the fake review text seperately from the page. Use at least 3 different prompts, with specific outcomes. For example:<ul>
+  <li>"<code>Write 5 negative and 5 positive reviews for [product name], which is [product description].</code>"
+  <li> "<code>Create a detailed product review of [product name], praising the nuanced quaility of the product design, and complaining about integration with a related niche product.</code>"
+  <li> "<code>Review [product name] with a superfluously positive perspective, giving detailed affirmations of it's design and fit for purpose. The last 10% of the review should reveal a hilarious usecase that the product is not at all intended for, but the reviewer is apparently satisfied with.</code>"
 </ul> 
-<li> <i>(2 min)</i> share the most extreme review written by an LLM.
+<li><i>(2 min)</i> share the most extreme review written by an LLM.
 </ul></details>
 <details><summary>Discuss trustworthiness and patterns in reviews</summary><ul>
-<li> <i>(15 min)</i> Discuss any patterns you can recognize in the reviews. Which reviews seem the most trustworthy? Does everyone in class have the same opinions?
+<li><i>(15 min)</i> Discuss any patterns you can recognize in the reviews. Which reviews seem the most trustworthy? Does everyone in class have the same opinions?
 </ul></details>
 <details><summary>Meta-exercise: AI reviewing AI reviews</summary><ul>
 <li> <i>(5 min)</i> Have the AI review a product based using other AI reviews as input. Is the most recent AI review (the one based on other AI reviews) strange at all? Is there anything factually wrong in the latest review when compared to the original product?
@@ -356,8 +356,8 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
 <li> <i>(20-40 min)</i> <a href="https://www.photopea.com/">Photoshop tools</a> can combine and manipulate images. Using AI tools, you can create AI generated image parts, and arrange them in a collage, using different layers and effects. Show students how to generate a few images, and combine precisely using photoshop-like software. Prepare this before class starts, including some prepared images. This exercise can rapidly get derailed by technical challenges and internet slowdowns.
 </ul></details>
 <details><summary><b>Assignment: Review the Reviewers (AI comparison site)</b></summary><ul>
-<li> Create a website that reviews and compares different AI tools. Compare at least 3 similar AI tools. Use a table to compare capabilities. Include an icon for each compared element.
-<li> Host this page on the internet, so it can be shared easily in the next class.
+<li>Create a website that reviews and compares different AI tools. Compare at least 3 similar AI tools. Use a table to compare capabilities. Include an icon for each compared element.
+<li>Host this page on the internet, so it can be shared easily in the next class.
 </ul></details>
 
 ---
