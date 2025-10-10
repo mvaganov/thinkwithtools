@@ -2,7 +2,9 @@
 
 > **Tagline:** *Learn to code webpages with AI as your partner--sharpening your mind, not offloading it.*
 
-This course is about learning how to use Large Language Models (LLMs), not as a crutch, but as a partner in your own thinking. You'll build real webpages by hand, experiment with AI-generated code and design, and most importantly, practice the habits that help you stay in control of your ideas, goals, and creativity.  
+This course is about learning how to use Large Language Models (LLMs), not as a crutch, but as a partner in your own thinking. The focus is on AI Literacy rather than AI Endorsement. You'll build real webpages by hand, experiment with AI-generated code and design, and most importantly, practice the habits that help you stay in control of your ideas, goals, and creativity.
+
+You'll learn to evaluate, critique, and direct AI systems. You'll analyze AI output, evaluate its validity, and create original digital works. The course is designed to be neutral toward commercial LLM providers, and realistic about the LLM capabilities.
 
 In this course, you'll start with the basics of HTML and CSS, then move into projects where AI helps you brainstorm, compare, and refine ideas. You'll make a webpage about yourself, design a landing page for a product that doesn't exist, build a site reviewing AI tools, write a clear "how to" wiki, design an infographic, and finish with an interactive quiz. Along the way, you'll learn to ask better questions, critique what AI gives you, and spot when persuasion or manipulation is at work.
 
@@ -16,6 +18,14 @@ The course is designed to be an 8 week course, with one-and-a-half to two hours 
 This course expects each student to use their own computer (or share with a peer), including access to the internet. Students will be expected to use a web browser for LLM access, a chat program or other LMS for peer communication, and possibly web-based tools for editing electronic artifacts (like images). Their computers must have user rights to write simple text files, or use other HTML editors.
 
 Assignments given each week are expected to be done outside of class. Computers with keyboards and a mouse are recommended for the assignments.
+
+Students attenting the course must be 13 years old or older, and may require special parent permission to use LLMs. Some LLMs have terms of service prohibiting use by minors under the age of 18.
+
+Before attending class meetings, students must sign or affirm an "AI Use Pledge" that clarifies important course expectations:<ul>
+<li>I will not input personal or identifying data into public AI systems.
+<li>I will edit AI output and make it my own.
+<li>I will use AI to learn, not to replace my own thinking.
+</ul>
 
 <details>
   <summary>This document is a guideline written with humility, accepting that the course is still iterating.</summary><ul>
@@ -80,6 +90,8 @@ Assignments given each week are expected to be done outside of class. Computers 
     <li> Quality of Results of Prompt Alone:
     <li> Quality of Results of Prompt & Extra Data:
     <li> Was the Writing the Extra Data Worth It:
+    <li> How You Improved It:
+    <li> Affirm Ethical AI Use:
   </ul>
 </ul>
 <li> Planning: preparation before interacting with your AI:<ol>
@@ -115,12 +127,19 @@ Assignments given each week are expected to be done outside of class. Computers 
   </ul>
   <li> Consider the preparation work you did before sharing the prompt with the LLM. In a new AI window, give the background information from step 3, your goal(s) from step 4, and the questions you wrote for step 5. Also, take the picture of your outline from step 6 and feed that image into the LLM. After providing all of this input, give it your prompt from step 2 (or a modified version of that prompt if it seems appropriate). Evaluate the output.
   <li> Compare the output from the first prompt that didn't contain any of your other thoughts or goals to the second prompt that did. Was the different output worth the extra effort?
+  <li> Intellectual Property is a complex topic when it comes to AI. It is a best practice to make your own modification to AI results before posting it as your own. Making your own modifications makes the work "Transformative" instead of "Derivative". This distinction is important, because Transformative works are "Fair Use", and do not require special copyright permissions. Parody is also considered "Fair Use". You should treat AI generated results as drafts, and you should improve the work with your own input.
+  <li> Before submitting or sharing any assignments, verify the following considerations were taken into account:<ul>
+    <li> Privacy: "Did I share anything personal?"
+    <li> Attribution: "Do I know where this content came from (is it Fair Use)?"
+    <li> Truthfulness: "Can I verify claims? Or is this clearly Parody?"
+  </ul>
 </ul>
 <li> Be prepared to share your prompts and the LLM's webpage results with the class during the next class meeting. Each assignment may have additional asks which you should also be prepared for during your brief presentation.
 <li> Edit the generated HTML or CSS to tweak the results. Feel free to ask the LLM to make the changes for you, or for syntax help so you can change things yourself.
+<li> Focus on essential deliverables for each assignment. <i>Don't make it perfect, make it clear.>/i>
 </ul></details>
 
-1. **About Me Page** - Build a personal webpage about yourself.  
+1. **About Me Page** - Build a personal webpage about yourself using a pseudonym.  
 2. **Products That Don't Exist** - Design a landing page for a fictional product.  
 3. **Review the Reviewers** - Compare and critique different AI tools in a review site.  
 4. **How To Wiki** - Write clear step-by-step instructions for something you know.  
@@ -147,16 +166,16 @@ Assignments given each week are expected to be done outside of class. Computers 
 </ul></details>
 <details><summary>Compare your work to AI-generated code</summary><ul>
 <li> <i>(2 min)</i> Ask each student to "imagine what is the simplest HTML webpage you can make." Have them describe their expectation to a peer.
-<li> <i>(2 min)</i> Have each student prompt an LLM "What's the simplest HTML webpage you can make?" How was it different from expectations?
+<li> <i>(2 min)</i> Have each student prompt an LLM "<code>What's the simplest HTML webpage you can make?</code>" How was it different from expectations?
 <li> <i>(2 min)</i> Ask an LLM to list the basic HTML tags used for formatting, with an example of synta using each tag, and expected output.
 </ul></details>
 <details><summary>Discuss AI Output: What did you get?</summary><ul>
 <li> <i>(10 min)</i> Discuss: Did it explain it's thinking? Did the LLM output more HTML syntax than you expected? Or less?
-<li> <i>(5-40 min)</i> Try a different LLM and see if the results are different. Here are the best LLMs as of the writing of this document: <a href="https://chatgpt.com/">ChatGPT</a>, <a href="https://claude.ai/">Claude</a>, <a href="https://deepseek.ai/">Deepseek</a>, <a href="https://gemini.google.com/">Gemini</a>, <a href="https://grok.com/">Grok</a>. Encourage students to try each one at some point during the class. Because of the rate of change in the AI industry, expect this list of recommended LLMs to change during the class. Be prepared to research a better list before class starts.
+<li> <i>(5-40 min)</i> Try a different LLM and see if the results are different. Here are the best LLMs as of the writing of this document: <a href="https://chatgpt.com/">ChatGPT</a>, <a href="https://claude.ai/">Claude</a> (age 18+), <a href="https://deepseek.ai/">Deepseek</a> (age 18+), <a href="https://gemini.google.com/">Gemini</a>, <a href="https://grok.com/">Grok</a>. Encourage students to try each one at some point during the class. Because of the rate of change in the AI industry, expect this list of recommended LLMs to change during the class. Be prepared to research a better list before class starts. As a baseline, ChatGPT is likely to be the best option, since OpenAI is an AI product focused company, and as of October 2025, it is an outlier in how extremely well funded it is, with clear plans to develop robust infrastructure to support its popularity. 
 <li> <i>(2 min)</i> Using a chat program or LMS that the entire class has access to, have each student cut-and-paste their favorite sentence generated by an LLM from today's exercises.
 </ul></details>
 <details><summary><b>Assignment:</b> About Me Page</summary><ul>
-<li> Write your name in a simple webpage. Add personal information about yourself that you want people to know. Consider what you think is important to you, and what is important for other people to know about you.
+<li> Write your pseudonym (fake name) in a simple webpage. Add personal information about yourself that you want people to know (but not sensitive identity information). Consider what you think is important to you, and what is important for other people to know about you.
 <li> Use at least 3 different tags (for example: <code>h1</code> for a title, <code>b</code> to make important text bold, <code>img</code> to include an image you think is important).
 <li> When you were writing the HTML code, did you imagine what the output would look like? did the output come out like you expected?
 <li> Paste your HTML code into an LLM and ask it to make changes to it. For example "take this webpage and make it look like a modern blog post". Look at the HTML output.
@@ -274,12 +293,16 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
   </code>
 </ul></details>
 <details><summary>Use AI to brainstorm "10 everyday frustrations" --> filter ideas together</summary><ul>
-<li> <i>(10-20 min)</i> Prompt: List 10 everyday frustrations people have that could inspire a product.<ul>
-  <li> Have different students generate the list with different LLMs. Determine with the class what the most compelling ideas are.
+<li> <i>(10-20 min)</i> Prompt: <code>List 10 everyday frustrations people have that could inspire a product.</code><ul>
+  <li> Have different students generate the list with different LLMs. Determine with the class what the most compelling ideas are. Consider assigning roles to the AI to focus it's thinking.  For example:<ul>
+    <li> <code>You are a pragmatic, fiscally conservative product developer. List 10 everyday frustrations that can be solved with a product that costs less than $5 to manufacture.</code>
+    <li> <code>You are a forward-thinking techno-utopian product designer. List frustrations you expect people will have with new technology expected within the next 1 to 5 years.</code>
+    <li> <code>You are a mechanically inclined DIYer with expert 3D printing skills. List the top 10 product ideas that people in your hackerspace have been asking you to build a product for. Do not include ethically dubious product ideas.</code>
+  </ul>
   <li> Did the LLMs miss any important frustrations that the students are focused on?
   <li> Pick a topic with students, possibly from the list of frustrations.
 </ul>
-<li> <i>(10-20 min)</i> Prompt: Create a table of possible new product solutions to [insert frustrating problem description here]. For each new solution, identify practical use (does the new product solve the problem), practical feasibility (could the new product actually be created) and financial feasibility (could this new product be produced cheaply).<ul>
+<li> <i>(10-20 min)</i> Example prompt: <code>Create a table of possible new product solutions to [insert frustrating problem description here]. For each new solution, identify practical use (does the new product solve the problem), practical feasibility (could the new product actually be created) and financial feasibility (could this new product be produced cheaply).</code><ul>
 <li> Impractical and expensive products are not bad output, this is an exercise to judge the AI's brainstorming and evaluation.
 <li> Show how to use AI image generators to create placeholder images of new products.
 <li> Show how to feed sketches into image generators to make product images with specific details.
@@ -292,11 +315,10 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
 <li> <i>(2 min)</i> Have each student cut-and-paste what they think the worst idea is that the AI generated from today.
 </ul></details>
 <details><summary>Webpage hosting</summary><ul>
-  <li> <i>(10-30 min)</i> Show the class how to host webpages on the internet. <a gref="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">Github</a> is a reliable host for simple web pages. There are almost certainly others as well. Use an LLM to determine if there is an easier method for students to have their webpages hosted. Explain that these webpages will be used in a public portfolio, which students can share with their friends and parents, and use as skill advertisement to future employers.</ul></details>
+  <li> <i>(10-30 min)</i> Show the class how to host webpages on the internet. <a gref="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">Github</a> is a reliable host for simple web pages. There are almost certainly others as well. <h1>This Requires Preparation Well Before Class.</h1> Test this in an environment as close to the student's environment as possible. Use an LLM to determine if there is an easier method for students to have their webpages hosted. Explain that these webpages will be used in a public portfolio, which students can share with their friends and parents, and use as skill advertisement to future employers.</ul></details>
 <details><summary><b>Assignment:</b> Products That Don't Exist (fake product landing page)</summary><ul>
 <li> Create a landing page for a new product that doesn't yet exist. Include images, and text descriptions of the product. Try to make a product that people will want to buy. It's ok if you don't know how to create it, or if the product is impractical.
 <li> Before starting the assignment, ask students to:<ul>
-  <li> Use AI to generate product ideas.
   <li> Consider: could you come up with a better ideas by combining ideas that the AI listed?
   <li> After selecting a product to make your page about, ask a peer student or the teacher for their thoughts about your idea.
   <li> When generating the image for your product, use a sketch or draft image as part of the prompt.
@@ -389,7 +411,7 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
 <li> <i>(20 min)</i> Reconvene as a class to discuss what pain points there were in making instructions for people, and following instructions from other people.</ul></details>
 <details><summary>Learn principles of persuasive infographic design</summary><ul>
 <li> <i>(20 min)</i> Ask the class what is exciting or curious to them in the world today, and think about how to represent it visually.<ul>
-<li> Prompt: What is one surprising fact about [topic you're curious about] that would make a good infographic?
+<li> Prompt: <code>What is one surprising fact about [topic you're curious about] that would make a good infographic?</code>
 <li> Have students think of an iconic image associated with their idea for an infographic.
 <li>Brainstorm ways to turn that icon into something meaningful in an infographic. Ask an AI for ideas.
 </ul>
@@ -435,16 +457,16 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
   <li> <i>(5 min)</i> Come up with an idea for a viral quiz. Something like "what fruit are you?" or "What Spongebob character is your spirit animal?" Ask your LLM for topic ideas after you come up with a few.
   <li> <i>(5 min)</i> Have the AI generate the quiz as an example. Show the JavaScript elements present in the quiz.</ul></details>
 <details><summary>Add a hidden agenda (e.g., guess Age, or something else)</summary><ul>
-<li> <i>(5 min)</i> Identify a hidden agenda to add to the quiz. For example: "Rewrite the quiz so it will also help identify the Age of quiz takers."<br> Instead of Age, you can try: Gender, Political Affiliation, Education Level, Occupation, Relationship Status, Risk Tolerance, Brand Affiliation, Home Ownership Status, Voting Liklihood, Privacy Attitudes, Persuadability, Moral Foundations, Patience, Addictions, Cognitive Style, Social Network Density, ...</ul></details>
+<li> <i>(5 min)</i> <b>This exercise explores how data can be misused. We are learning to resist these tactics, not deploy them.</b> Identify a hidden agenda to add to the quiz. For example: "Rewrite the quiz so it will also help identify the Age of quiz takers."<br> Instead of Age, you can try: Gender, Political Affiliation, Education Level, Occupation, Relationship Status, Risk Tolerance, Brand Affiliation, Home Ownership Status, Voting Liklihood, Privacy Attitudes, Persuadability, Moral Foundations, Patience, Addictions, Cognitive Style, Social Network Density, ...</ul></details>
 <details><summary>Discuss how engagement --> personal data --> business models</summary><ul>
 <li> <i>(10 min)</i> Ask the AI to help you come up with tricks to make the quiz more engaging, to drive more interaction from users. Brainstorm with your AI how to create a click-baity title or tagline for a quiz. Implement those tricks.
 <li> <i>(5-20 min)</i> Discuss with the class: user interaction can be processed to recognize valuable personal data about quiz takers, which can then be bought and sold online. Companies like Google and Meta are extremely profitable because of this kind of data trade. Who would want to buy this kind of data, and why?
-<li> <i>(5-10 min)</i> Explain the Cambridge Analytica scandal. Specifically mention how quizzes on Facebook were used to demographically segment millions of American voters, and then serve targeted pursuasive ads to nudge voting behavior during the 2016 presidential election. Explain that this is still not illegal, but that Meta was prosecuted for allowing it, having to pay billions of dollars in fines and settled lawsuits. The incident dramatically changed Meta's internal culture and technical safeguards related to user data privacy. The unethical tactics remain viable.
+<li> <i>(5-10 min)</i> Explain the Cambridge Analytica scandal. Specifically mention how quizzes on Facebook were used to demographically segment millions of American voters, and then serve targeted pursuasive ads to nudge voting behavior during the 2016 presidential election. Explain that this is still not illegal, but that Meta was prosecuted for allowing it, having to pay billions of dollars in fines and settled lawsuits. The incident dramatically changed Meta's internal culture and technical safeguards related to user data privacy. Meta's engineering culture is now a good model of ethical consideration applied to technical infrastructure. Despite Meta's internal rehabilitation, the unethical tactics at the root of the Cambridge Analytica scandal remain viable.<br>For the sake of our own mental autonomy, and our communities' as well, we should be aware of ethical tragedies like this, and avoid them as we create new computing artifacts. 
 </ul></details>
 <details><summary><b>Assignment:</b> Interactive Quiz</summary><ul>
 <li> Make a JS-powered quiz like "What Type of Plant Are You?" or "Can You Survive in the Wild?"
 <li> Make sure the quiz has a clear title. Write a description of the quiz in one or two sentences. Also, consider creating an image to summarize the quiz.
-<li> Optionally, generate quiz questions that have a specific agenda for sorting quiz takers.
+<li> Optionally, generate quiz questions that have a specific agenda for sorting quiz takers. If hidden agenda questions are included in the quiz, make sure quiz result data is never saved (to a database or a cookie).
 <li> Each quiz quesition and its answers should be checked, and modified to the student's preferences. Also, it might be helpful to ask the LLM why it phrased a question or answer as it did.
 <li> Each student should take the quiz at least three times themselves, attempting to get different results. This is to verify that the quiz's mechanisms are functioning. If they are not functioning, students are expected to work with their LLM to debug the quiz (or try to generate the quiz with another LLM).
 <li> Host this page on the internet, so it can be shared easily in the next class.
@@ -471,13 +493,11 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
   <li> Estimate with the class how many grams of CO2 was emitted to power their LLM prompts during this class. Ask each student to estimate how many words were in their prompts (or how many prompts they think they did with an estimate of 5 to 10 thousand words exchanged per prompt).
   <li> Ask an LLM: What is Coltan mining, and how is it related to modern technology that people use every day?
   <li> Ask an LLM something like this:<br>"Coltan mining is a moral/ethical/environmental cost of producing the convenience of modern technology. LLMs use a significant amount of electricity to generate sometimes dubious value, which can be generated in similarly tragic ways. These are examples of how technology produces moral and environmental hazards as externalities. This is an ethical trade-off being decided without the consent or even awareness of most consumers. Are there any other notable examples of similar moral/ethical/environmental tradeoffs where a decision has being made to cause suffering in one part of the world for the benefit of others in another part of the world?"
-  <li> Ask the students if they recognize any costs of technology in their own life, beyond these hidden externalities.
-  <li> Acknowledge that there are terrible costs for our modern technology.<ul>
-    <li> Knowing this, it is normal to feel guilt.
-    <li> With this guilt, it is normal to be more critical of your own consumption of technology.
-  </ul>
+  <li> Ask the students if they recognize any additional costs of technology in their own life, beyond these hidden externalities. For example, does social media keep them awake too long at night, reducing the amount of time they have to sleep?
+  <li> These costs of technology are real; awareness is the path to improvement.
 </ul>
 <li> <i>(10 min)</i> Do not misunderstand: we want you to use this technology.<ul>
+  <li> <i>Knowing the costs of technology increases our agency to choose wisely.</i>
   <li> Ask the students if they learned anything they could do in this class that they didn't know before the class started.
   <li> It should be evident that this technology is capable of amazing results that humanity is only just beginning to tap into. It can save time, supercharge creativity, and with that extra time and creative value, we can iterate on our unique values to do better work.
   <li> When you use this technolgy, ask yourself if what you are doing is worth the costs. Make choices that are worth the costs. You should be practiced and skilled with this technology. You should avoid being wasteful with it.
