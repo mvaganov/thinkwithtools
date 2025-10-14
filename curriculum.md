@@ -32,6 +32,7 @@ Before attending class meetings, students must sign or affirm an "AI Use Pledge"
   <li>AI technology may advance quickly enough to obsolete the course before it is fully implemented in a class.
   <li>For an instructor to expect to teach this course well, they should have familiarity with LLMs (as a practical requirement), and Design Thinking or other rapid prototyping experience (as an internalized process, to help iterate this course while administering it). Before teaching this course, a new teacher is advised to ask an LLM to teach them Design Thinking, including thoughts on applying Design Thinking to teaching a new course.
   <li>Additional notes are included (behind summary expansions like this) by the author. These are to provide details, context, and some suggestions for specific in-class implementations.
+  <li>The author acknowledges that this course is probably too ambitious as written. It doesn't allow much accommodation for students who have difficulty (like ESL, poor gemeral computer use, outdated computers, learning disabilities), and expects a lot of technical expertise from the instructor as well. Time estimates are not tested. Significant implementation details are still absent.
   <li>Please contact the course developer at michael.vaganov@gmail.com with feedback.
   </ul>
 </details>
