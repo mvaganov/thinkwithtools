@@ -193,7 +193,7 @@ Before attending class meetings, students must sign or affirm an "AI Use Pledge"
 <li> <i>(5-30 min)</i> Each student should briefly show their personal webpage, and answer any questions the teacher or other students might have about it.
 </ul></details>
 <details><summary>Learn CSS and layout with <code>&lt;div></code></summary><ul>
-<li> <i>(20 min)</i> Write all of the CSS exaple code below, incrementally, from an empty .html file. Just as before, start from scratch, and test expectations often.<ul>
+<li> <i>(20 min)</i> Write all of the CSS example code below, incrementally, from an empty .html file. Just as before, start from scratch, and test expectations often.<ul>
 <li> Students should write the same code as you. Ask them to speak up if their output looks incorrect. It is critical that students have a strong baseline of understanding how typed syntax creates web artifacts.
 <li> Start with the body, without any CSS classes defined. View the webpage.
 <li> Add the CSS classes one at a time, viewing the webpage between each addition.<br><code>
@@ -206,6 +206,9 @@ Before attending class meetings, students must sign or affirm an "AI Use Pledge"
 &nbsp;&nbsp;&lt;/p><br>
 &lt;/body><br>
 &lt;style type="text/css"><br>
+.redtxt { color : #FF0000; }<br>
+.greentxt { color : #0f0; }<br>
+.bluetxt { color : blue; }<br>
 h1 {<br>
 &nbsp;&nbsp;font-family: courier, courier-new, consolas, serif;<br>
 &nbsp;&nbsp;font-size: 20pt;<br>
@@ -217,49 +220,45 @@ html {<br>
 &nbsp;&nbsp;font-size: 12pt;<br>
 }<br>
 p { color: #3030a0 }<br>
-.redtxt { color : #FF0000; }<br>
-.greentxt { color : #0f0; }<br>
-.bluetxt { color : blue; }<br>
 &lt;/style><br>
 </code>
 </ul>
-<li> <i>(20 min)</i> Teach basic Div tags. Use a similar approach to the one for CSS (start with basic HTML first, view result, add classes incrementally while refreshing to check results). Use the following code (or something similar):<br><code>
-&lt;head><br>
-&nbsp;&nbsp;&lt;title>Web Development Haiku&lt;/title><br>
-&nbsp;&nbsp;&lt;style type="text/css"><br>
-&nbsp;&nbsp;&nbsp;&nbsp;.footer { border: 2px dotted; border-color: #44f; color: #44f; padding: 5px; text-align: right; }<br>
-&nbsp;&nbsp;&nbsp;&nbsp;.content { border: 1px solid; background-color: white; margin: 10px; padding: 2px; }<br>
-&nbsp;&nbsp;&nbsp;&nbsp;.title_area { background-color: black; font-size: 200%; text-align: center; color: #aaf; }<br>
-&nbsp;&nbsp;&nbsp;&nbsp;.container { background-color: #aaf; padding: 20px; width: 400; }<br>
-&nbsp;&nbsp;&nbsp;&nbsp;.main_image {<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 300; height: 200; background-repeat: no-repeat;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-image: url(https://nickelodeonuniverse.com/wp-content/uploads/Spongebob.png)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;}<br>
-&nbsp;&nbsp;&lt;/style><br>
-&lt;/head><br>
-&lt;body style="background-color: #ffffdd;"><br>
-&nbsp;&nbsp;&lt;div class="container"><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="title_area">iStruggle&lt;/div><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="main_image">&lt;/div><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="content"><br>
-This is my webpage&lt;br><br>
-I write whatever I want&lt;br><br>
-But, does it work yet?<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="footer">if you can read this, my HTML works.&lt;/div><br>
+<li> <i>(20 min)</i> Teach basic Div tags. Use a similar approach to the one for CSS (start with basic HTML first, view result, add classes incrementally while refreshing to check results).<ul>
+<li>Use the following code (or something similar):<br><code>
+&lt;title>ManBob's True Identity&lt;/title><br>
+&lt;div class="container"><br>
+&nbsp;&nbsp;&lt;div class="title_area">SpongeRobert&lt;/div><br>
+&nbsp;&nbsp;&lt;div class="main_image">&lt;/div><br>
+&nbsp;&nbsp;&lt;div class="content"><br>
+I'm ready,&lt;br><br>
+I'm ready,&lt;br><br>
+I'm ready!<br>
 &nbsp;&nbsp;&lt;/div><br>
-&lt;/body></code>
-</ul></details>
-<details><summary>Hosting images online</summary><ul>
-<li> <i>(2-40 min)</i> Show the class how to host an image on the internet in a way that is accessible to your teaching environment (some image sharing websites might be blocked). <a href="https://uploadcare.com/pricing/">uploadcare</a> or <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">github</a> might be appropriate. Prepare this before class starts; technical difficulties can arise in practice. If your web traffic is filtered by strict school policies, use an LLM to try to find workarounds.<ul>
- <li> Why can't we just share image files from our own computers with the internet?
- <li> What is The Internet?
+&nbsp;&nbsp;&lt;div class="footer">Maybe today could be the best day ever&lt;/div><br>
+&lt;/div><br>
+&lt;!-- CSS --><br>
+&lt;style type="text/css"><br>
+&nbsp;&nbsp;.footer { border: 2px dotted; border-color: #44f; color: #44f; padding: 5px; text-align: right; }<br>
+&nbsp;&nbsp;.content { border: 1px solid; background-color: white; margin: 10px; padding: 2px; }<br>
+&nbsp;&nbsp;.title_area { background-color: black; font-size: 200%; text-align: center; color: #aaf; }<br>
+&nbsp;&nbsp;.container { background-color: #aaf; padding: 20px; width: 400; }<br>
+&nbsp;&nbsp;.main_image {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;width: 300; height: 200; background-repeat: no-repeat;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;background-image: url(https://nickelodeonuniverse.com/wp-content/uploads/Spongebob.png)<br>
+&nbsp;&nbsp;}<br>
+&lt;/style></code>
 </ul>
 </ul></details>
 <details><summary>Experiment with AI restyling your page in multiple visual themes.</summary><ul>
-<li> <i>(3 min)</i> Cut and paste the HTML page into an LLM. ask the LLM how to modify it for different results (like left-alignment of the title, or different colors)
-<li> <i>(2 min)</i> Ask the LLM to restyle your page in at least 3 different styles (for example: minimalist, retro, neon). For example: "Restyle this page to have a minimalist aesthetic".
-<li> <i>(2 min)</i> Using a chat program or LMS that the entire class has access to, have each student cut-and-paste their favorite sentence generated by an LLM from today's exercises.
+<li> <i>(5 min)</i> Cut and paste the HTML page into an LLM. Ask the LLM to restyle your page (for example: minimalist, retro, neon, or in the style of a specific popular TV show). For example: "<code>Restyle this page to have a minimalist aesthetic</code>" or "<code>Restyle this code to look like [insert favorite cartoon name]</code>".
+<li><i>(5 min)</i> Discuss what the LLM did well, and what it did wrong (likely broken images). Explain that because we understand CSS, we can fix the broken parts.
+<li><i>(2 min)</i> Using a chat program or LMS that the entire class has access to, have each student cut-and-paste their favorite sentence generated by an LLM from today's exercises.
+</ul></details>
+<details><summary>Hosting images online</summary><ul>
+<li> <i>(2-40 min)</i> Show the class how to host an image on the internet in a way that is accessible to your teaching environment (some image sharing websites might be blocked). <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">github</a> might be appropriate. Prepare this before class starts, ideally with a student volunteer; technical difficulties can arise in practice. If your web traffic is filtered by strict school policies, use an LLM to try to find workarounds.<ul>
+  <li>Why can't we just share image files from our own computers with the internet?
+  <li>What is The Internet?
+</ul>
 </ul></details>
 <details><summary><b>Assignment:</b> About Me Card (stylized character card)</summary><ul>
 <li> Create a character card about yourself, like those used in games. Include a picture and some information about yourself.
@@ -452,8 +451,11 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
 <li> Basic ethics of Computer Programming<ul>
   <li> Once code is fully understood, it becomes your code, and you should feel empowered to use it. In practice, understanding is the only price that programmers need to pay for code.
   <li> For a programmer, copying and using code is unethical if it is not understood. There can be extremely negative practical consequences for adding poorly understood code to software. Software bugs are rooted in this lack of understanding. The more software you write, the clearer this will become.
-  <li> (possibly out-of-scope additional discussion) In the modern LLM-powered era of softare development, understanding how the code works in an abstract sense is not enough. Programmers must understood how it works <i>in the system it is designed for</i>. This distinction is not dramatic for a webpage, but it could be very dramatic for a robot with motors that spin in the real world. To address this nuance, test all code that touches external systems thouroughly: don't accept hundreds of lines of code from an LLM at once, test just a few. LLMs are unable to experience interactions with external systems, and are unlikely to expect real life consequences.
+  <li> The strategy for learning how to program with LLMs outlined here is good (get basic code from the LLM, refactor and experiment with it until you fully understand it). However, the <i>focus of this class is dangerous to teaching good software development practices</i>. Computer programming is full of problems that are difficult to reason about or even recognize without understanding simpler problems. Arithmetic is like this too: complex ideas don't work without mastery of simpler ideas. To learn how to program well, you are advised to practice computer programming without an LLM writing your code, so that you are confident that you understand it.
+  <li> (possibly out-of-scope additional discussion) In the modern LLM-powered era of software development, understanding how the code works in an abstract sense is not enough. Programmers must understood how it works <i>in the system it is designed for</i>. This distinction is not dramatic for a webpage, but it could be very dramatic for a robot with motors that spin in the real world. To address this nuance, test all code that touches external systems thouroughly: don't accept hundreds of lines of code from an LLM at once, test just a few. LLMs are unable to experience interactions with external systems, and are unlikely to expect real life consequences. As the human in the loop, you need to make up for this LLM blindspot.
+  <li> (possibly out-of-scope additional discussion) As of October 2025, LLMs are good at quickly generating top-down design of software. And LLMs are also good at generating examples of bottom-up implementation of software (as API tutorials). However, LLMs are bad at integrating bottom-up implementation into top-down design.
 </ul>
+
 </ul>
 </ul></details>
 <details><summary>Generate viral-style quizzes with AI</summary><ul>
