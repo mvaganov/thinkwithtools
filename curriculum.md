@@ -152,6 +152,10 @@ Before attending class meetings, students must sign or affirm an "AI Use Pledge"
 # Curriculum
 
 ## Section 1: Web Foundations and Metacognition
+<details><summary>(prep)</summary><ul>
+<li>Create a google account for the class that you can use for OAuth, to log into the various chat programs. It may be appropriate to let students use this account to log into some chat apps if there is technical difficulty preventing them from using their own accounts for the apps otherwise.
+<li>Ensure you know how to make a webpage using basic HTML
+</ul></details>
 <!-- ~60-110 min -->
 <details><summary>Learn basic HTML by hand</summary><ul>
 <li><i>(5 min)</i> Introduce the importancs of web programming. "Web development with HTML, CSS, and JavaScript is critical literacy in this course. It is true that by the end of the class, the AI will be writing most of your code. However, it is an inescapable fact that these technical skills are required to edit, critique, and improve AI output. web programming is not mechanics that can be ignored, it is the source of your most powerful agency when doing web development."<br>
@@ -189,7 +193,11 @@ Before attending class meetings, students must sign or affirm an "AI Use Pledge"
 ---
 
 ## Section 2: Web Style and Iteration
-<!-- ~60-120 min -->
+<details><summary>(prep)</summary><ul>
+<li>Ensure you have access to the google account you created for the class.
+<li>Ensure you know how to use basic CSS in your HTML webpage
+</ul></details>
+<!-- ~70-130 min -->
 <details><summary>Review About Me Page</summary><ul>
 <li><i>(5-30 min)</i> Each student should briefly show their personal webpage, and answer any questions the teacher or other students might have about it.
 </ul></details>
@@ -250,6 +258,11 @@ I'm ready!<br>
 &lt;/style></code>
 </ul>
 </ul></details>
+<details><summary>(10 min) Explain hashtag codes for colors</summary><ul>
+<li>Search for `colorpicker` using google
+<li>Explain that all colors on a computer screen are made of Red, Green, and Blue components, which exist on a scale from 0 to 255. The acronym RGB refers to this.
+<li>Explain that the 6 digit hexadecimal value used in a color code is just those 3 values (Red, Green, Blue, in that order), using 2 digits of hexadecimal for each value.
+</ul></details>
 <details><summary>Experiment with AI restyling your page in multiple visual themes.</summary><ul>
 <li> <i>(5 min)</i> Cut and paste the HTML page into an LLM. Ask the LLM to restyle your page (for example: minimalist, retro, neon, or in the style of a specific popular TV show). For example: "<code>Restyle this page to have a minimalist aesthetic</code>" or "<code>Restyle this code to look like [insert favorite cartoon name]</code>".
 <li><i>(5 min)</i> Discuss what the LLM did well, and what it did wrong (likely broken images). Explain that because we understand CSS, we can fix the broken parts.
@@ -272,6 +285,14 @@ I'm ready!<br>
 ---
 
 ## Section 3: AI as an Idea Generator
+<details><summary>(prep)</summary><ul>
+<li>Practice uploading an image/webpage to the internet. If you are doing it with github, practice doing it from a new project (note that the page can take time to update on the internet)
+<li>Be aware of best practices for AI prompts. Ask your LLM of choice to explain best practices to you.<ul>
+<li><a href="https://mitsloanedtech.mit.edu/ai/basics/effective-prompts/">Effective Prompts from MIT</a>
+<li><a href="https://www.reddit.com/r/ChatGPTPromptGenius/comments/1nzp6mb/ive_been_gaslighting_my_ai_and_its_producing/">ideas from r/ChatGPTPromptGenius</a>
+</ul>
+<li>Ensure you know how to make a Table with HTML
+</ul></details>
 <!-- ~76-121 min -->
 <details><summary>Review About Me Card</summary><ul>
 <li><i>(5 min)</i> Pair up, and explain your character card to one other student. Why did you choose that image? Why did you write that text? What did you modify from any LLM generated output?
