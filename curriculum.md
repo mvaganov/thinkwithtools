@@ -8,18 +8,18 @@ You'll learn to evaluate, critique, and direct AI systems. You'll analyze AI out
 
 In this course, you'll start with projects exploring the basics of HTML and CSS, then move into projects where AI helps you brainstorm, compare, and refine ideas. You'll make a webpage about yourself, design a landing page for a product that doesn't exist, build a site reviewing AI tools, write a clear "how to" wiki, design an infographic, and finish with an interactive quiz. Along the way, you'll learn to ask better questions, critique what AI gives you, and spot when persuasion or manipulation is at work.
 
-The class ends by stepping back to look at the bigger picture: the costs, tradeoffs, and ethics of our modern tech world. By the end, you'll have technical skills on display in a small protfolio of webpages, and a personal philosophy for how you want to use AI--so that it makes you sharper, not softer.
+The class ends by stepping back to look at the bigger picture: the costs, tradeoffs, and ethics of our modern tech world. By the end, you'll have technical skills on display in a small portfolio of webpages, and a personal philosophy for how you want to use AI--so that it makes you sharper, not softer.
 
 ---
 
 ## Course Structure
-The course is designed to be an 8 week course, with one-and-a-half to two hours of class meetings per week, and additional assigments outside of class meetings.
+The course is designed to be an 8 week course, with one-and-a-half to two hours of class meetings per week, and additional assignments outside of class meetings.
 
 This course expects each student to use their own computer (or share with a peer), including access to the internet. Students will be expected to use a web browser for LLM access, a chat program or other LMS for peer communication, and possibly web-based tools for editing electronic artifacts (like images). Their computers must have user rights to write simple text files, or use other HTML editors.
 
 Assignments given each week are expected to be done outside of class. Computers with keyboards and a mouse are recommended for the assignments.
 
-Students attenting the course must be 13 years old or older. Students under 18 may require special parent permission to use some LLMs. Some LLMs have terms of service prohibiting use by minors under the age of 18.
+Students attending the course must be 13 years old or older. Students under 18 may require special parent permission to use some LLMs. Some LLMs have terms of service prohibiting use by minors under the age of 18.
 
 Before attending class meetings, students must sign or affirm an "AI Use Pledge" that clarifies important course expectations:<ul>
 <li>I will not input personal or identifying data into public AI systems.
@@ -32,7 +32,7 @@ Before attending class meetings, students must sign or affirm an "AI Use Pledge"
   <li>AI technology may advance quickly enough to obsolete the course before it is fully implemented in a class.
   <li>For an instructor to expect to teach this course well, they should have familiarity with LLMs (as a practical requirement), and Design Thinking or other rapid prototyping experience (as an internalized process, to help iterate this course while administering it). Before teaching this course, a new teacher is advised to ask an LLM to teach them Design Thinking, including thoughts on applying Design Thinking to teaching a new course.
   <li>Additional notes are included (behind summary expansions like this) by the author. These are to provide details, context, and some suggestions for specific in-class implementations.
-  <li>The author acknowledges that this course is probably too ambitious as written. It doesn't allow much accommodation for students who have difficulty (like ESL, poor gemeral computer use, outdated computers, learning disabilities), and expects a lot of technical expertise from the instructor as well. Time estimates are not tested. Significant implementation details are still absent.
+  <li>The author acknowledges that this course is probably too ambitious as written. It doesn't allow much accommodation for students who have difficulty (like ESL, poor general computer use, outdated computers, learning disabilities), and expects a lot of technical expertise from the instructor as well. Time estimates are not tested. Significant implementation details are still absent.
   <li>Please contact the course developer at michael.vaganov@gmail.com with feedback.
   </ul>
 </details>
@@ -59,7 +59,7 @@ Before attending class meetings, students must sign or affirm an "AI Use Pledge"
   <li>Debugging: What is the problem? How do I solve it? How can I learn how to solve it? How can I understand the problem more clearly?
 </ul></details>
 <details><summary><b>Messaging:</b> persuasion, resilience against manipulation</summary><ul>
-  <li>Pursuasion: What do I care about? What do other people care about? How can I make someone care about something? Where can I learn more about persuasive messaging?
+  <li>Persuasion: What do I care about? What do other people care about? How can I make someone care about something? Where can I learn more about persuasive messaging?
   <li>Resilience: What are common messaging tactics that control attention? What messaging tactics work on me?
 </ul></details>
 
@@ -70,7 +70,7 @@ Before attending class meetings, students must sign or affirm an "AI Use Pledge"
 <li>Assignments in this class are more like art projects than math assignments. Students should be encouraged to express themselves, and hold their work to a standard defined by the scrutiny of their peers. Suggestions for critique guidelines:<ul>
   <li>As a group, discuss the page categorically:<ul>
     <li>Vibe Check: How does it make you feel?
-    <li>Design & Layout: Is the page balanced well? Is there a clear prupose to colors? Is the spacing and typography good? Is there a good visual hierarchy (what catches the eye first, and then what, and then what, ...)? Is the page cohesive?
+    <li>Design & Layout: Is the page balanced well? Is there a clear purpose to colors? Is the spacing and typography good? Is there a good visual hierarchy (what catches the eye first, and then what, and then what, ...)? Is the page cohesive?
     <li>Clarity & Communication: Can we tell what the page is trying to say? Are the ideas easy to grasp? Does the style fit the message?
     <li>Use of HTML/CSS Fundamentals: Does the structure make sense? Is it readable to make manual edits? 
     <li>Creativity and Personal Expression: Is the design original or unique? Were there any risks taken that paid off? Is there a notable style? Is there a point of view expressed?
@@ -78,7 +78,7 @@ Before attending class meetings, students must sign or affirm an "AI Use Pledge"
   </ul>
   <li><b>Feel, Communicate, Improve</b>: Each student should give a 3 word critique for each other student. One word for <i>how the page feels</i>, one word for what that student recognizes <i>the page is communicating</i>, and one word for <i>what the page could improve</i> if it had to change one thing.
 </ul>
-<li>For each assignment, consider making this outline into a ruberic for grading, or a worksheet for students to fill out with each assignment:<br><ul>
+<li>For each assignment, consider making this outline into a rubric for grading, or a worksheet for students to fill out with each assignment:<br><ul>
   <li>Planning:<ol>
     <li>Explicit goals:
     <li>Prompt:
@@ -158,10 +158,10 @@ Before attending class meetings, students must sign or affirm an "AI Use Pledge"
 </ul></details>
 <!-- ~60-110 min -->
 <details><summary>Learn basic HTML by hand</summary><ul>
-<li><i>(5 min)</i> Introduce the importancs of web programming. "Web development with HTML, CSS, and JavaScript is critical literacy in this course. It is true that by the end of the class, the AI will be writing most of your code. However, it is an inescapable fact that these technical skills are required to edit, critique, and improve AI output. web programming is not mechanics that can be ignored, it is the source of your most powerful agency when doing web development."<br>
+<li><i>(5 min)</i> Introduce the importance of web programming. "Web development with HTML, CSS, and JavaScript is critical literacy in this course. It is true that by the end of the class, the AI will be writing most of your code. However, it is an inescapable fact that these technical skills are required to edit, critique, and improve AI output. web programming is not mechanics that can be ignored, it is the source of your most powerful agency when doing web development."<br>
 "We are going to write HTML by hand, so that you can get a feel for the technology, and understand the output that LLMs give us."
 <li><i>(2 min)</i> Have each student create a plain text file, with a <code>.html</code> suffix
-<li><i>(30 min)</i> Write "Hello World! This is my first HTML webpage." Starting from scratch, from an empty file with some understandable text, add HTML tags one at a time. This will give students clarity about how to program, and dispel some ambiguity about what code does. Make predicitons about output and test those predictions often, so that students can recognize and get into that habit as well.<ul>
+<li><i>(30 min)</i> Write "Hello World! This is my first HTML webpage." Starting from scratch, from an empty file with some understandable text, add HTML tags one at a time. This will give students clarity about how to program, and dispel some ambiguity about what code does. Make predictions about output and test those predictions often, so that students can recognize and get into that habit as well.<ul>
 <li>Use <code>b</code>old, <code>i</code>talics, <code>u</code>nderline, and <code>strike</code> tags to change the appearance of words written in the page.
 <li>Add an image. show how the <code>img</code> tag works (<code>src</code> and <code>with</code> or <code>height</code> variables)
 <li>Show how the <code>a</code>nchor tag works (<code>href</code> to google.com, or some other safe website)
@@ -186,7 +186,7 @@ Before attending class meetings, students must sign or affirm an "AI Use Pledge"
 <li>Paste your HTML code into an LLM and ask it to make changes to it. For example "take this webpage and make it look like a modern blog post". Look at the HTML output to understand it. Test your understanding with small edits.
 <li>Be sure to NOT include too much personal information. It is possible for LLMs to leak data, and this information could be used for identity theft in the future.<ul>
   <li>Avoid sharing your real name, address, phone number, email address, birthdate, middle name, what school you are attending, the names of your pets, names of family members
-  <li>NEVER share passwords, PINs, passport/drivers-license/social-security numbers, bank acount numbers, or any other unique numbers associated with your identity.
+  <li>NEVER share passwords, PINs, passport/drivers-license/social-security numbers, bank account numbers, or any other unique numbers associated with your identity.
 </ul>
 </ul></details>
 
@@ -202,7 +202,7 @@ Before attending class meetings, students must sign or affirm an "AI Use Pledge"
 <li><i>(5-30 min)</i> Each student should briefly show their personal webpage, and answer any questions the teacher or other students might have about it.
 </ul></details>
 <details><summary>Learn CSS and layout with <code>&lt;div></code></summary><ul>
-<li><i>(20 min)</i> Write all of the CSS exaple code below, incrementally, from an empty .html file. Just as before, start from scratch, and test expectations often.<ul>
+<li><i>(20 min)</i> Write all of the CSS example code below, incrementally, from an empty .html file. Just as before, start from scratch, and test expectations often.<ul>
 <li>Students should write the same code as you. Ask them to speak up if their output looks incorrect. It is critical that students have a strong baseline of understanding how typed syntax creates web artifacts.
 <li>Start with the body, without any CSS classes defined. View the webpage.
 <li>Add the CSS classes one at a time, viewing the webpage between each addition.<br><code>
@@ -286,16 +286,16 @@ I'm ready!<br>
 
 ## Section 3: AI as an Idea Generator
 <details><summary>(prep)</summary><ul>
-<li>Practice uploading an image/webpage to the internet. If you are doing it with github, practice doing it from a new project (note that the page can take time to update on the internet)
+<li>Practice uploading an image/webpage to the internet. If you are doing it with github, practice doing it from a new project (note that webpage changes can take quite a few seconds to update on the internet)
 <li>Be aware of best practices for AI prompts. Ask your LLM of choice to explain best practices to you.<ul>
 <li><a href="https://mitsloanedtech.mit.edu/ai/basics/effective-prompts/">Effective Prompts from MIT</a>
 <li><a href="https://www.reddit.com/r/ChatGPTPromptGenius/comments/1nzp6mb/ive_been_gaslighting_my_ai_and_its_producing/">ideas from r/ChatGPTPromptGenius</a>
 </ul>
 <li>Ensure you know how to make a Table with HTML
 </ul></details>
-<!-- ~76-121 min -->
+<!-- ~86-141 min -->
 <details><summary>Review About Me Card</summary><ul>
-<li><i>(5 min)</i> Pair up, and explain your character card to one other student. Why did you choose that image? Why did you write that text? What did you modify from any LLM generated output?
+<li><i>(2 min)</i> Pair up, and explain your character card to one other student. Why did you choose that image? Why did you write that text? What did you modify from any LLM generated output?
 <li><i>(15 min)</i> The class should reconvene after a short time for group discussion, and each student should briefly show their character card to the entire class. Students should be ready to answer any questions about their work.
 </ul></details>
 <details><summary>Learn tables in HTML</summary><ul>
@@ -317,11 +317,11 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
   </code>
 </ul></details>
 <details><summary>Use AI to brainstorm "10 everyday frustrations" then filter ideas together</summary><ul>
-<li><i>(10-20 min)</i> Prompt: <code>List 10 everyday frustrations people have that could inspire a product.</code><ul>
+<li><i>(20-30 min)</i> Prompt: <code>List 10 everyday frustrations people have that could inspire a product.</code><ul>
   <li>Have different students generate the list with different LLMs. Determine with the class what the most compelling ideas are. Consider assigning roles to the AI to focus it's thinking. For example:<ul>
     <li><code>You are a pragmatic, fiscally conservative product developer. List 10 everyday frustrations that can be solved with a product that costs less than $5 to manufacture.</code>
     <li><code>You are a forward-thinking techno-utopian product designer. List frustrations you expect people will have with new technology expected within the next 1 to 5 years.</code>
-    <li><code>You are a mechanically inclined DIYer with expert 3D printing skills. List the top 10 product ideas that people in your hackerspace have been asking you to build a product for. Do not include ethically dubious product ideas.</code>
+    <li><code>You are a mechanically inclined DIYer with expert 3D printing skills. List the top 10 product ideas that people in your hacker space have been asking you to build. Do not include ethically dubious product ideas.</code>
   </ul>
   <li>Did the LLMs miss any important frustrations that the students are focused on?
   <li>Pick a topic with students, possibly from the list of frustrations.
@@ -356,14 +356,14 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
 ## Section 4: Trust, Persuasion, and AI Reviews
 <!-- ~84-104 min -->
 <details><summary>Review Products That Don't Exist</summary><ul>
-<li><i>(2 min)</i> Before reviewing assignments from the previous class, ask the students to make note of what is inspiring or pusuasive about the web pages. Also ask them to be ready to explain what they removed/replaced from the LLM generated content.
-<li><i>(20 min)</i> Review the pages with students, asking each one about how they altered the LLM output. After the review, discuss what the most pursuasive and inspiring things about the pages. Did the AI output surprise anyone?
+<li><i>(2 min)</i> Before reviewing assignments from the previous class, ask the students to make note of what is inspiring or persuasive about the web pages. Also ask them to be ready to explain what they removed/replaced from the LLM generated content.
+<li><i>(20 min)</i> Review the pages with students, asking each one about how they altered the LLM output. After the review, discuss what the most persuasive and inspiring things about the pages. Did the AI output surprise anyone?
 </ul></details>
 <details><summary>Use AI to generate fake review sites (good/bad reviews)</summary><ul>
-<li><i>(20 min)</i> In class exercise: Have an LLM generate a fake reviews site with fake reveiws, possibly for a class favorite from the Products That Don't Exist. Have the LLM include good reviews and bad reviews. Generate the fake review text seperately from the page. Use at least 3 different prompts, with specific outcomes. For example:<ul>
+<li><i>(20 min)</i> In class exercise: Have an LLM generate a fake reviews site with fake reviews, possibly for a class favorite from the Products That Don't Exist. Have the LLM include good reviews and bad reviews. Generate the fake review text separately from the page. Use at least 3 different prompts, with specific outcomes. For example:<ul>
   <li>"<code>Write 5 negative and 5 positive reviews for [product name], which is [product description].</code>"
-  <li> "<code>Create a detailed product review of [product name], praising the nuanced quaility of the product design, and complaining about integration with a related niche product.</code>"
-  <li> "<code>Review [product name] with a superfluously positive perspective, giving detailed affirmations of it's design and fit for purpose. The last 10% of the review should reveal a hilarious usecase that the product is not at all intended for, but the reviewer is apparently satisfied with.</code>"
+  <li> "<code>Create a detailed product review of [product name], praising the nuanced quality of the product design, and complaining about integration with a related niche product.</code>"
+  <li> "<code>Review [product name] with a superfluously positive perspective, giving detailed affirmations of it's design and fit for purpose. The last 10% of the review should reveal a hilarious use-case that the product is not at all intended for, but the reviewer is apparently satisfied with.</code>"
 </ul> 
 <li><i>(2 min)</i> share the most extreme review written by an LLM.
 </ul></details>
@@ -389,13 +389,13 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
   <li> <i>(25 min)</i> Share review sites as a class. Have each student identify which AI tool got the best reviews on their review site. Ask each student "Which review seems the most credible?" Did anything about the AI output surprise anyone?
 </ul></details>
 <details><summary>Ask AI for step-by-step instructions (simple and complex)</summary><ul>
-<li> <i>(20 min)</i> Ask the AI how to do something "simple", and provide step by step instructions. For example: "give me instructions for how to make a peanutbutter sandwich". Discuss the results.<ul>
+<li> <i>(20 min)</i> Ask the AI how to do something "simple", and provide step by step instructions. For example: "give me instructions for how to make a peanut butter sandwich". Discuss the results.<ul>
 <li> What did you ask instructions about? Is everything correct?
 <li> Did the AI miss anything?
 </ul>
 </ul></details>
 <details><summary>Compare AI steps to human knowledge</summary><ul>
-<li> <i>(10 min)</i> Ask the AI how to do something more specific that you know how to do, like defeat a winning strategy for your favorite game. If you don't know what to ask, ask the LLM to provide a list of topics that an average human is probably much more knowledgable about than an LLM.
+<li> <i>(10 min)</i> Ask the AI how to do something more specific that you know how to do, like defeat a winning strategy for your favorite game. If you don't know what to ask, ask the LLM to provide a list of topics that an average human is probably much more knowledgeable about than an LLM.
 </ul></details>
 <details><summary>Discuss what's missing, unclear, or misleading</summary><ul>
 <li> <i>(20 min)</i> Discuss with the class what kinds of things AI seems to be bad at knowing. Compare it to what AI seems to be good at knowing. Try to define what is missing. Is there a common theme? Is there a missing perspective? Is there a kind of information that could be helpful but is absent?
@@ -439,13 +439,13 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
 <li> Have students think of an iconic image associated with their idea for an infographic.
 <li>Brainstorm ways to turn that icon into something meaningful in an infographic. Ask an AI for ideas.
 </ul>
-<li> <i>(20 min)</i> Discuss what emotions (or biases) will make the message of this inforgraphic more appealing, surprising, or otherwise engaging? Consider prompting an AI about this topic before teaching the class:<br><code>What are some general guidelines for how to make an appealing infographic? What elements are highly attractive and persuasive to include or emphasize? If there are well known broad concepts or general rules that can be applied as heuristics to infographic persuasiveness, make a note of those.</code>
+<li> <i>(20 min)</i> Discuss what emotions (or biases) will make the message of this infographic more appealing, surprising, or otherwise engaging? Consider prompting an AI about this topic before teaching the class:<br><code>What are some general guidelines for how to make an appealing infographic? What elements are highly attractive and persuasive to include or emphasize? If there are well known broad concepts or general rules that can be applied as heuristics to infographic persuasiveness, make a note of those.</code>
 </ul></details>
 <details><summary>Sketch first, then use AI for layout and visuals</summary><ul>
 <li> <i>(20 min)</i> Sketch the infographic's structure on paper, labeling what goes where, before AI design help. Take a picture with a digital camera so you can upload it to your LLM. Note that this might take longer than expected, because not all students will have paper and writing implements on hand. If students are confused about what an infographic should look like, recommend that they search for some infographics online, and emulate one that they like. Also remind them that practicing creativity in small ways now is required to practice creativity in more meaningful ways later.
 </ul></details>
 <details><summary>Basic fact checking</summary><ul>
-<li> <i>(10 min)</i> Create an outlandish numerical claims for an infographic (like: "99% of Americans believe AI is going to make their job obsolete"). Ask the LLM to determine if the numerial claim is accurate, and how to determine the accuracy of a statement like that.
+<li> <i>(10 min)</i> Create an outlandish numerical claims for an infographic (like: "99% of Americans believe AI is going to make their job obsolete"). Ask the LLM to determine if the numerical claim is accurate, and how to determine the accuracy of a statement like that.
 </ul></details>
 <details><summary><b>Assignment:</b> Infographic</summary><ul>
 <li> Use HTML, CSS, and at least one generated image to create an infographic that explains a topic of interest.
@@ -458,7 +458,7 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
 ## Section 7: Interactivity, Engagement, and Ethics
 <!-- ~75-115 min -->
 <details><summary>Review Infographics</summary><ul>
-  <li> <i>(20 min)</i> Before reviewing, ask the students to make note of what is inspiring or pusuasive about the pages. Each student should share their infographics with the class, including references to sources where data came from. As a class, discuss what the most pursuasive and inspiring thing was the infographics. Did the data surprise anyone? Did the AI output surprise anyone?</ul></details>
+  <li> <i>(20 min)</i> Before reviewing, ask the students to make note of what is inspiring or persuasive about the pages. Each student should share their infographics with the class, including references to sources where data came from. As a class, discuss what the most persuasive and inspiring thing was the infographics. Did the data surprise anyone? Did the AI output surprise anyone?</ul></details>
 <details><summary>Understanding Basic JavaScript</summary><ul>
 <li> <i>(5-20 min)</i> Show how to prompt code generation and use it responsibly:<ul>
 <li> Prompt: <code>Create a webpage using HTML and JavaScript. The webpage should have 2 prominent buttons, one labeled 'A' and the other labeled 'B'. A third button labeled 'Results' should display a label on the page when pressed. This label should include the count of how many times the 'A' and 'B' buttons were pressed.</code>
@@ -467,14 +467,14 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
   <li> Make a note about everything that looks foreign. Hypothesize what the new syntax is, and create simple tests to validate your hypothesis. If you are still confused, ask the LLM to explain these new ideas.
   <li> Remove all non-functional code, to create a maximally simplified example.
   <li> Examine each line of code to guess what it does. Rename every variable or function with your own words.
-  <li> Refactor the code style to use less inlined logic:<ul><li> Create well named variables to describe partial results <li> Create named functions instead of anonymous lambda epressions</ul>
+  <li> Refactor the code style to use less inlined logic:<ul><li> Create well named variables to describe partial results <li> Create named functions instead of anonymous lambda expressions</ul>
   <li> Find patterns in the code that can be collapsed into helper functions. Create the helper functions and use them. Test each function separately.
 </ul>
 <li> Basic ethics of Computer Programming<ul>
   <li> Once code is fully understood, it becomes your code, and you should feel empowered to use it. In practice, understanding is the only price that programmers need to pay for code.
   <li> For a programmer, copying and using code is unethical if it is not understood. There can be extremely negative practical consequences for adding poorly understood code to software. Software bugs are rooted in this lack of understanding. The more software you write, the clearer this will become.
   <li> The strategy for learning how to program with LLMs outlined here is good (get basic code from the LLM, refactor and experiment with it until you fully understand it). However, the <i>focus of this class is dangerous to teaching good software development practices</i>. Computer programming is full of problems that are difficult to reason about or even recognize without understanding simpler problems. Arithmetic is like this too: complex ideas don't work without mastery of simpler ideas. To learn how to program well, you are advised to practice computer programming without an LLM writing your code, so that you are confident that you understand it.
-  <li> (possibly out-of-scope additional discussion) In the modern LLM-powered era of software development, understanding how the code works in an abstract sense is not enough. Programmers must understood how it works <i>in the system it is designed for</i>. This distinction is not dramatic for a webpage, but it could be very dramatic for a robot with motors that spin in the real world. To address this nuance, test all code that touches external systems thouroughly: don't accept hundreds of lines of code from an LLM at once, test just a few. LLMs are unable to experience interactions with external systems, and are unlikely to expect real life consequences. As the human in the loop, you need to make up for this LLM blindspot.
+  <li> (possibly out-of-scope additional discussion) In the modern LLM-powered era of software development, understanding how the code works in an abstract sense is not enough. Programmers must understood how it works <i>in the system it is designed for</i>. This distinction is not dramatic for a webpage, but it could be very dramatic for a robot with motors that spin in the real world. To address this nuance, test all code that touches external systems thoroughly: don't accept hundreds of lines of code from an LLM at once, test just a few. LLMs are unable to experience interactions with external systems, and are unlikely to expect real life consequences. As the human in the loop, you need to make up for this LLM blind spot.
   <li> (possibly out-of-scope additional discussion) As of October 2025, LLMs are good at quickly generating top-down design of software. And LLMs are also good at generating examples of bottom-up implementation of software (as API tutorials). However, LLMs are bad at integrating bottom-up implementation into top-down design.
 </ul>
 
@@ -484,17 +484,17 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
   <li> <i>(5 min)</i> Come up with an idea for a viral quiz. Something like "what fruit are you?" or "What Spongebob character is your spirit animal?" Ask your LLM for topic ideas after you come up with a few.
   <li> <i>(5 min)</i> Have the AI generate the quiz as an example. Show the JavaScript elements present in the quiz.</ul></details>
 <details><summary>Add a hidden agenda (e.g., guess Age, or something else)</summary><ul>
-<li> <i>(5 min)</i> <b>This exercise explores how data can be misused. We are learning to resist these tactics, not deploy them.</b> Identify a hidden agenda to add to the quiz. For example: "Rewrite the quiz so it will also help identify the Age of quiz takers."<br> Instead of Age, you can try: Gender, Political Affiliation, Education Level, Occupation, Relationship Status, Risk Tolerance, Brand Affiliation, Home Ownership Status, Voting Liklihood, Privacy Attitudes, Persuadability, Moral Foundations, Patience, Addictions, Cognitive Style, Social Network Density, ...</ul></details>
+<li> <i>(5 min)</i> <b>This exercise explores how data can be misused. We are learning to resist these tactics, not deploy them.</b> Identify a hidden agenda to add to the quiz. For example: "Rewrite the quiz so it will also help identify the Age of quiz takers."<br> Instead of Age, you can try: Gender, Political Affiliation, Education Level, Occupation, Relationship Status, Risk Tolerance, Brand Affiliation, Home Ownership Status, Voting Likelihood, Privacy Attitudes, Persuade-ability, Moral Foundations, Patience, Addictions, Cognitive Style, Social Network Density, ...</ul></details>
 <details><summary>Discuss how engagement --> personal data --> business models</summary><ul>
 <li> <i>(10 min)</i> Ask the AI to help you come up with tricks to make the quiz more engaging, to drive more interaction from users. Brainstorm with your AI how to create a click-baity title or tagline for a quiz. Implement those tricks.
 <li> <i>(5-20 min)</i> Discuss with the class: user interaction can be processed to recognize valuable personal data about quiz takers, which can then be bought and sold online. Companies like Google and Meta are extremely profitable because of this kind of data trade. Who would want to buy this kind of data, and why?
-<li> <i>(5-10 min)</i> Explain the Cambridge Analytica scandal. Specifically mention how quizzes on Facebook were used to demographically segment millions of American voters, and then serve targeted pursuasive ads to nudge voting behavior during the 2016 presidential election. Explain that this is still not illegal, but that Meta was prosecuted for allowing it, having to pay billions of dollars in fines and settled lawsuits. The incident dramatically changed Meta's internal culture and technical safeguards related to user data privacy. Meta's engineering culture is now a good model of ethical consideration applied to technical infrastructure. Despite Meta's internal rehabilitation, the unethical tactics at the root of the Cambridge Analytica scandal remain viable.<br>For the sake of our own mental autonomy, and our communities' as well, we should be aware of ethical tragedies like this, and avoid them as we create new computing artifacts. 
+<li> <i>(5-10 min)</i> Explain the Cambridge Analytica scandal. Specifically mention how quizzes on Facebook were used to demographically segment millions of American voters, and then serve targeted persuasive ads to nudge voting behavior during the 2016 presidential election. Explain that this is still not illegal, but that Meta was prosecuted for allowing it, having to pay billions of dollars in fines and settled lawsuits. The incident dramatically changed Meta's internal culture and technical safeguards related to user data privacy. Meta's engineering culture is now a good model of ethical consideration applied to technical infrastructure. Despite Meta's internal rehabilitation, the unethical tactics at the root of the Cambridge Analytica scandal remain viable.<br>For the sake of our own mental autonomy, and our communities' as well, we should be aware of ethical tragedies like this, and avoid them as we create new computing artifacts. 
 </ul></details>
 <details><summary><b>Assignment:</b> Interactive Quiz</summary><ul>
 <li> Make a JS-powered quiz like "What Type of Plant Are You?" or "Can You Survive in the Wild?"
 <li> Make sure the quiz has a clear title. Write a description of the quiz in one or two sentences. Also, consider creating an image to summarize the quiz.
 <li> Optionally, generate quiz questions that have a specific agenda for sorting quiz takers. If hidden agenda questions are included in the quiz, make sure quiz result data is never saved (to a database or a cookie).
-<li> Each quiz quesition and its answers should be checked, and modified to the student's preferences. Also, it might be helpful to ask the LLM why it phrased a question or answer as it did.
+<li> Each quiz question and its answers should be checked, and modified to the student's preferences. Also, it might be helpful to ask the LLM why it phrased a question or answer as it did.
 <li> Each student should take the quiz at least three times themselves, attempting to get different results. This is to verify that the quiz's mechanisms are functioning. If they are not functioning, students are expected to work with their LLM to debug the quiz (or try to generate the quiz with another LLM).
 <li> Host this page on the internet, so it can be shared easily in the next class.
 </ul></details>
@@ -516,10 +516,10 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
 <li> <i>(5 min)</i> Discuss LLMs as a possible vehicle for unethical data mining. "Last class, we discussed that companies like Google and Meta sell profiles about consumers. These profiles are a reputation that everyone creates through their actions online. Companies will buy and sell user data based on these reputations." <br>
 "Could engagement with LLMs produce any similar value for LLM companies? Who would want to know details about how you interact with an LLM?"
 <li> <i>(10-20 min)</i> Discuss other social and ethical tradeoffs that are being made to support our modern technological world, most of which are hidden from you consumers.<ul>
-  <li> A 5 to 10 thousand word chat session with an LLM will use around 45 Watt hours of energy, which is about 20 grams of CO2 emmision from an average power grid. It will take an average healthy and mature tree about 8 hours to pull that much CO2 out of the air. Feel free to validate that using an LLM.
+  <li> A 5 to 10 thousand word chat session with an LLM will use around 45 Watt hours of energy, which is about 20 grams of CO2 emission from an average power grid. It will take an average healthy and mature tree about 8 hours to pull that much CO2 out of the air. Feel free to validate that using an LLM.
   <li> Estimate with the class how many grams of CO2 was emitted to power their LLM prompts during this class. Ask each student to estimate how many words were in their prompts (or how many prompts they think they did with an estimate of 5 to 10 thousand words exchanged per prompt).
-  <li> Ask an LLM: What is Coltan mining, and how is it related to modern technology that people use every day?
-  <li> Ask an LLM something like this:<br>"Coltan mining is a moral/ethical/environmental cost of producing the convenience of modern technology. LLMs use a significant amount of electricity to generate sometimes dubious value, which can be generated in similarly tragic ways. These are examples of how technology produces moral and environmental hazards as externalities. This is an ethical trade-off being decided without the consent or even awareness of most consumers. Are there any other notable examples of similar moral/ethical/environmental tradeoffs where a decision has being made to cause suffering in one part of the world for the benefit of others in another part of the world?"
+  <li> Ask an LLM: What is coltan mining, and how is it related to modern technology that people use every day?
+  <li> Ask an LLM something like this:<br>"Coltan mining is a moral/ethical/environmental cost of producing the convenience of modern technology. LLMs use a significant amount of electricity to generate sometimes dubious value, and this electricity can be generated in tragic ways. These are examples of how technology produces moral and environmental hazards as externalities. This is an ethical trade-off being decided without the consent or even awareness of most consumers. Are there any other notable examples of similar moral/ethical/environmental tradeoffs where a decision has been made to cause suffering in one part of the world for the benefit of others in another part of the world?"
   <li> Ask the students if they recognize any additional costs of technology in their own life, beyond these hidden externalities. For example, does social media keep them awake too long at night, reducing the amount of time they have to sleep?
   <li> These costs of technology are real; awareness is the path to improvement.
 </ul>
@@ -527,7 +527,7 @@ th { border: 5px dotted #0ff; padding: 0px; }<br>
   <li> <i>Knowing the costs of technology increases our agency to choose wisely.</i>
   <li> Ask the students if they learned anything they could do in this class that they didn't know before the class started.
   <li> It should be evident that this technology is capable of amazing results that humanity is only just beginning to tap into. It can save time, supercharge creativity, and with that extra time and creative value, we can iterate on our unique values to do better work.
-  <li> When you use this technolgy, ask yourself if what you are doing is worth the costs. Make choices that are worth the costs. You should be practiced and skilled with this technology. You should avoid being wasteful with it.
+  <li> When you use this technology, ask yourself if what you are doing is worth the costs. Make choices that are worth the costs. You should be practiced and skilled with this technology. You should avoid being wasteful with it.
 </ul>
 </ul></details>
 <details><summary>Reflect: What tradeoffs come with AI? How should we use it wisely?</summary><ul>
