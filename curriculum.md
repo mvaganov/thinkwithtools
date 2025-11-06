@@ -4,7 +4,7 @@
 
 This course is about learning how to use Large Language Models (LLMs), not as a crutch, but as a partner in your own thinking. The focus is on AI Literacy rather than AI Endorsement. You'll build real webpages by hand, experiment with AI-generated code and design, and most importantly, practice the habits that help you stay in control of your ideas, goals, and creativity.
 
-You'll learn to evaluate, critique, and direct AI systems. You'll analyze AI output, evaluate its validity, and create original digital works. The course is designed to be neutral toward commercial LLM providers, and realistic about the LLM capabilities.
+You'll learn to evaluate, critique, and direct AI systems. You'll analyze AI output, evaluate its validity, and create original digital works. The core habit is using AI feedback as a tool for thinking rather than a prescription.
 
 In this course, you'll start with projects exploring the basics of HTML and CSS, then move into projects where AI helps you brainstorm, compare, and refine ideas. You'll make a webpage about yourself, design a landing page for a product that doesn't exist, build a site reviewing AI tools, write a clear "how to" wiki, design an infographic, and finish with an interactive quiz. Along the way, you'll learn to ask better questions, critique what AI gives you, and spot when persuasion or manipulation is at work.
 
@@ -19,7 +19,7 @@ This course expects each student to use their own computer (or share with a peer
 
 Assignments given each week are expected to be done outside of class. Computers with keyboards and a mouse are recommended for the assignments.
 
-Students attending the course must be 13 years old or older. Students under 18 may require special parent permission to use some LLMs. Some LLMs have terms of service prohibiting use by minors under the age of 18.
+The course is designed to be neutral toward commercial LLM providers, and realistic about the LLM capabilities and requirements. Students attending the course must be 13 years old or older. Students under 18 may require special parent permission to use some LLMs because of Terms of Service prohibiting use by minors under the age of 18.
 
 Before attending class meetings, students must sign or affirm an "AI Use Pledge" that clarifies important course expectations:<ul>
 <li>I will not input personal or identifying data into public AI systems.
