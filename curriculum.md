@@ -1,3 +1,11 @@
+### Important Note:
+
+This curriculum is still a work in progress. Valuable initial feedback for anyone interested in adopting the curriculum:
+
+* the conceptual pacing seems fine
+* time to practice with programming and LLMs is absent. Recommend probably doubling time cost of each section, with extra time used for Q&A and practice.
+
+---
 # Think With Tools: Augmenting Intelligence, Not Offloading It
 
 > **Tagline:** *Learn to code webpages with AI as your partner--sharpening your mind, not offloading it.*
