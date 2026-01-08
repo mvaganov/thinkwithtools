@@ -1,10 +1,9 @@
 # How LLMs Change What It Means to Understand Code
 
 ## LLMs Hurt Understanding by Averting Testing
-Understanding remains the most important commodity a software developer can have. Understanding in software development comes from testing: start with an expectation for code, and then test the expectation by observing actual behavior.
+Understanding survives tool changes, failure, and novel problems, making it the most important commodity a software developer can have. Understanding in software development comes from testing: start with an expectation for technology, and then test the expectation by observing actual behavior.
 
-The experimentation process should be familiar to developers. Make a guess, introduce inputs, observe outputs, and compare the results to expectations. This cycle of testing builds the practiced judgment and intuition that distinguishes programmers.
-It creates reliable progress. Mastery of this skill is an implicit professional expectation. This is how understanding is earned.
+The experimentation process should be familiar to developers. Make a guess, introduce inputs, observe outputs, and compare the results to expectations. This cycle of testing builds the practiced judgment and intuition that distinguishes programmers. It creates reliable progress. Mastery of this skill is an implicit professional expectation. This is how understanding is earned.
 
 **LLMs, by their nature, unintentionally deemphasize testing. This is a mental hazard.** Little documentation about testing makes LLMs under-represent it in practice. Consistently good code from LLMs punishes skepticism. The medium makes a choice of convenience for you. It doesn't force understanding, so you must experiment intentionally.
 
@@ -14,7 +13,7 @@ LLMs are not just vending machines for code. The LLM should be used early, while
 Explain what you are trying to solve to the LLM, and ask it to help discover blind spots, weakness in expertise, or poor workflow. This could increase your abilities and improve your scope before you consider a line of code.
 
 ## Critique as Intelligence Augmentation
-LLMs can help you test and experiment on your own thoughts, with critiques. A code review prompt could at the very least point out easy to miss mistakes in your writing. And in the best case, you could get actionable advice, sourced and adapted from intelligent writing you never would have read otherwise.
+LLMs can help you test and experiment on your own thoughts, with critiques. A code review prompt could at the very least point out easy to miss mistakes in your writing. And in the best case, you could get actionable advice, sourced and adapted from intelligent training data you never would have discovered otherwise.
 
 Remember that you can read and apply critical feedback at your own pace. You are free to disagree with any LLM suggestions. You can ignore or reframe any implied goals. You can choose how to use this tool as an engine for growth.
 
