@@ -64,6 +64,7 @@ While you are deep in the middle of writing code and stuck on an algorithm:
 * Repeated micro questions --> careless use of compute tokens has a negative impact on the LLM system. An LLM query on a premier LLM has real economic and environmental costs. Build a habit of developing questions that are worth asking.
 * Syntax trivia --> LLMs are not as good (fast/efficient) at verifying code as a compiler running on your own computer. Use your own computer to answer questions wherever you can.
 * Asking the same question with micro-edits --> like micro questions point, this squanders LLM resources. Be thoughtful about your question before you ask it. If you don't know what exact question you want to ask, explain your goal to the LLM and ask it to help you write the prompt.
+* Asking questions without reading answers --> if you have a habit of avoiding reading, you should change that habit before you start interacting with LLMs. The most wasteful thing you can do with an LLM is ask it complex questions and do nothing with the answer.
 
 ## Strengths of different LLMs (Jan 2026)
 These oversimplified descriptions will quickly become obsolete. You should try different models yourself, whatever the most popular models of the day are, to develop your own understanding. Also, if one model gets stuck on your project, it's likely another model will not get stuck in the same way, because of differences in model weights. Assume all models have been trained on computer programming, since it's known that training a model on programming improves their reasoning abilities.
