@@ -37,43 +37,43 @@ LLMs can produce code without understanding; growth belongs to developers who ch
 # Part 2: Software Development Workflow with LLMs
 
 ## Have a Note Taking Strategy
-* Interaction with LLMs will likely to flood you with information. Use electronic writing tools to help you remember thoughts, prioritize work, keep you safe from cognitive overload, and offer security by equipping you for self-audits of your own thinking and decision making.
-* Text files using markdown (*.md) format are common for notes, and natively understood by LLMs. Other effective related tools/workflows for reducing cognitive overload include: TODO list apps, notes in an electronic calendar, emails to self, private chat with yourself, office document processors.
-* Having written notes will help you gather context, and manage the context window of LLMs with Context Reset. This technique focuses LLM attention, and makes your project more portable across different LLMs.
+* Interaction with LLMs, especially seeking critique, will likely to flood you with information. Use electronic writing tools to help you remember thoughts, prioritize work, keep you safe from cognitive overload, and offer intellectual security by equipping you for self-audits of your own thinking and decision making.
+* Having written notes will help you gather context for prompts, and manage the context window of LLMs with context reset summaries. This technique re-focuses LLM attention, and makes your project more portable across different LLMs.
 ```
 Please produce a concise summary suitable for pasting into a new chat as fresh context.
 ```
+* Consider using a text editor like VS Code and markdown (*.md) format text files for your notes. This format is already used by LLMs. Other effective tools/workflows for reducing cognitive overload and complimenting LLM use include: private chats with yourself, emails to self, and office document processors.
 
 ## Formalize Your Agency
-* Write down high level goals you understand for yourself. Including these in prompts will help the LLM craft responses specifically motivating to you. Without this personal intellectual grounding, you will be more susceptible to having your agency distracted or even hijacked by stray ideas you encounter. For example, when asking the LLM for critique, explicitly include:
+* Write down high level goals you understand for yourself. Including these in prompts will help the LLM craft responses specifically motivating to you. Consider using these goals to reshape LLM compliments that would otherwise distract both you and the LLM in the conversation:
 ```
-Give no encouraging feedback unless it encourages {{my_goals}}
+Give no encouraging feedback unless it supports {{my_goals}}.
 ```
 * In general, when you ask questions, include as much relevant context as you can. Include: intent, error messages, stack traces, software goals, concrete data, personal theories, and expectations. This context improves answer quality, often reduces the LLMs compute needs, and helps you learn by keeping your mind engaged.
 * Before asking for a plan, write your own first draft and ask the LLM to critique it. If you ask the LLM to generate the first draft, it will never feel like your work, and that lack of ownership will corrupt the your workflow from the beginning. 
-* Articulating your problems very clearly is an effective debugging technique called "Rubber Ducky Debugging". It can lead to additional insights, and sometimes help you answer your own questions, before even engaging the LLM.
+* Articulating your problems very clearly is good context, and an effective debugging technique called "Rubber Ducky Debugging". It can lead to additional insights, and sometimes help you answer your own questions before even engaging the LLM.
 
 ## Specific Workflow Advice
-* Start a new software project with a prompt like:
+* Try starting a new software project with a prompt like:
 ```
-I'm starting a new project.
+I'm starting a new software development project.
 {{goals_for_project}}
 {{relevant_personal_goals}}
 {{relevant_context}}
 {{first_draft_high_level_project_plan}}
-Help me discover blind spots, weakness in expertise, or poor workflow that I can correct. My short term goal is to understand how to define a project scope that sets me up for success.
+Help me discover blind spots, weakness in expertise, or poor workflow that I can correct. Help me define a project scope that sets me up for success.
 ```
-* Take notes on what the LLM discusses with you. Prioritize ideas that you want to follow up on later.
+* Take notes on what the LLM discusses with you. Use the LLM's suggestions as a tool for your thinking, not as a prescription. Prioritize ideas that you want to follow up on later.
 * Many software developers are (or feel) self-taught, and LLMs can provide great comfort by giving technical and academic explanations:
 ```
 explain {{this_code_or_concept}} like I'm a junior developer
 ```
-* Brainstorm how you can test new knowledge. If you can verify information quickly, like with a web-search, do it now. If you think of a more time consuming experiment to verify a new idea, write it in your notes so you can prioritize it. If you are unsure how to prove a new idea to yourself, ask the LLM:
+* Brainstorm how you can test new knowledge as you learn it. If you can verify information quickly, like with a web-search, do it now. If you think of a more time consuming experiment to verify a new idea, write it in your notes so you can prioritize it. If you are unsure how to prove you understand a new idea, ask the LLM:
 ```
-I have just learned {{new_concept_or_idea}} and want to understand it more clearly. Please explain it more clearly. Offer ways that I can quickly verify or practice this understanding.
+I have just learned {{new_concept_or_idea}}. Please explain it so I understand. Offer ways that I can quickly verify or practice this understanding.
 ```
-* If you decide to use a technology stack you are not fast or familiar with, ask the LLM for a minimal boiler-plate starting point for your project. Your power as a developer is expressed in the implementation/testing iterative loop, and LLM automation can help you get into that loop sooner.
-* LLMs are excellent at debugging and explaining boiler-plate code examples because of abundant and high-quality tutorial documentation on the web. Ask questions about this kind of code, you will get great answers.
+* If you decide to use a technology stack you are not familiar with, ask the LLM for a minimal boiler-plate starting point for your project. Your power as a developer is expressed in the implementation/testing iterative loop, and LLM automation can help you get into that loop sooner.
+* LLMs are excellent at debugging and explaining boiler-plate code samples because of abundant and high-quality tutorial documentation on the web. Ask questions about this kind of code, you will get great answers.
 * If you don't have a clear path forward for writing code, consider Test Driven Development: writing Unit Tests before functionality. Ask an LLM to explain Test Driven Development if you need. LLMs are able to write Unit Tests quickly, which make project coding tasks very visible and more motivating. Example prompt:
 ```
 Act as a Senior Software Architect and TDD Practitioner. Your goal is to write a suite of unit tests for a feature that has NOT been implemented yet. These tests will serve as the technical specification for the upcoming development.
@@ -101,19 +101,19 @@ Provide the complete test file code. Ensure the code compiles but expect all tes
 ```
 Write a prompt that an LLM will use to generate automated unit tests for my code. Include variables I need to supply in {{Double Mustache}} format.
 ```
-* If you need an algorithm that you don't know, describe what you need to the LLM, including programming language target, and any additional relevant context. Include an initial implementation if you can. Remember to experiment with the code, to prove it is valid, and take intellectual ownership of it.
+* If you need an algorithm that you don't know, describe what you need to the LLM, including programming language target, and any additional relevant context. Include an initial implementation if you can. Remember to experiment with the resulting code, to prove it is valid, and take intellectual ownership of it.
 * Before giving an LLM example code you have a question about, refactor it to use as few dependencies as possible. This is a general debugging technique called "Minimal Reproducible Example". Extra dependencies/files can distract/confuse the model.
 * Don't assume LLM generated code is production ready, certainly not in the first pass. LLMs often prioritize functionality over security and maintainability. Review it like any other code.
-* Testing code does not mean "it ran once without crashing", It means deliberately trying to falsify expectations, and the expectations of the LLM. If you can solve a bug yourself that you find while testing, you should do so.
+* Testing code does not mean "it ran once without crashing", It means deliberately trying to falsify expectations, and the expectations of the LLM. If you can solve a bug yourself that you find while experimenting, you should do so yourself.
 * As of January 2026, most LLMs do not learn from mistakes after training. You should not feel obligated to explain a mistake to the LLM. Do explain that you solved the bug if you think the LLM can teach you something about your solution, or the bugfix might help the context of your current discussion.
 * Ask the LLM for a code reviews; this is an extremely high leverage use of artificial intelligence:
 ```
 Review this code as if you were a Senior Developer looking for style inconsistencies, potential bugs and edge cases, readability improvements, and performance bottlenecks.
 ```
-* After a long session, especially one involving iteration over drafts, it's a good idea to start a new chat session. Software development discussions often involve superseded versions of text, resolved problems, and meta-reasoning about tangential scope, all of which does hurt the signal-to-noise ratio of discussions.
-* Senior developers use LLMs differently because speed of typing and testing becomes the limiting factor instead of understanding and compute tokens. A junior developer should not assume responsibility for code-reviewing LLM agents if they don't understand the code being written or the full scope of the project.
-* Judgement (using understanding to make a decision) remains a bottleneck for all developers, even when using LLMs. Focus on making judgement more efficient to dispense. Senior devs should use LLMs to automate testing and aggregate results. Junior devs should use LLMs to improve build time, runtime, and UX performance, so fast compile-test loops can quickly debug individual issues.
-* Different models have different strengths and weaknesses, and are worth trying for different purposes. Ask your LLM to tell you about the current models of the day:
+* After a long session, especially one involving iteration over code, it's a good idea to start a new chat session. Software development discussions often involve superseded versions of text, resolved problems, and meta-reasoning about tangential scope, all of which does hurt the signal-to-noise ratio of discussions, and is improved by a context reset.
+* Senior developers use LLMs differently because speed of typing and testing becomes the limiting factor instead of understanding and compute token use. A junior developer should not assume responsibility for code-reviewing LLM agents if they don't understand the code being written or the full scope of the project.
+* Making Decisions remains a bottleneck for all developers, at all times, even when using LLMs. Focus on making decisions more efficient to dispense. Senior devs should use LLMs to automate testing and aggregate results. Junior devs should use LLMs to improve build time, runtime, and UX performance, so fast compile-test loops can quickly expose individual issues.
+* Different models have different strengths and weaknesses, and are worth trying for different purposes. Ask your LLM to tell you about contemporary models:
 ```
 Act as an objective AI analyst. Compare the current leading LLM vendors, highlighting their distinct strengths, known weaknesses, and best-fit use cases.
 ```
