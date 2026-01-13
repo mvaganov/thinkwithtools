@@ -109,13 +109,17 @@ Act as a malicious QA engineer. What inputs or failures would break this logic t
 
 ## High Leverage Prompts
 * **Ask the LLM to help you understand what code does**. You can always ask `What does this file do?`, and also consider asking `Trace the lifecycle of user data, where does validation happen?` A prompt like this can mitigate hours of manual text searches and focus your experimentation.
-* **Ask the LLM for a code reviews**:
+* **Ask the LLM for a code review**:
 ```
 Review the attached code as if you were a Senior Developer looking for style inconsistencies, potential bugs and edge cases, readability improvements, and performance bottlenecks.
 ```
-Be aware that submitting proprietary data to an LLM on the public internet could be cause for termination at many tech companies. You can also setup automatic code reviews on a local computer.
+Be aware that submitting proprietary data to an LLM on the public internet could be cause for termination at many tech companies. You can also setup smaller coding models on a local computer.
 ```
-Guide me through setting up Ollama and `pre-commit` git hooks to enable automated code review on my local computer.
+Guide me through setting up local LLM on my computer, so that I can do code reviews.
+```
+* **Pre-mortem theory crafting** can inform and improve software design.
+```
+Where does this design assume latency or user input will stay benign, and in a small range? What circumstances could break those assumptions? How could the software be changed to mitigate these failure cases?
 ```
 
 ### Try Different LLMs
@@ -124,26 +128,24 @@ Guide me through setting up Ollama and `pre-commit` git hooks to enable automate
 Act as an objective AI analyst. Compare the current leading LLM vendors, highlighting their distinct strengths, known weaknesses, and best-fit use cases.
 ```
 * **Another model may not get stuck in the same way** because of differences in Model Weights.
-* **A of habit to trying new LLMs every few weeks will be regularly rewarded** because of how rapidly LLMs are advancing.
+* **A of habit to trying new LLMs every few weeks will be regularly rewarded** because of how rapidly global industries are advancing LLM technology.
 
 ---
 
 # Part 3: Programming with LLM Gotchas and Anti-patterns
 
 ## Elevating AI Slop
-AI Slop is anything sloppily created by generative AI. Slop Code may be functional, but probably not robust or maintainable. A developer elevates LLM output by identifying value in code, extracting it, and composing intentional software with it. The capability to do this is rooted in understanding of the problem space, and understanding the generated code.
+AI Slop is sloppy content created by generative AI. Slop Code may be functional, but probably not robust or maintainable. A developer elevates LLM output by identifying value in generated code, extracting it, and composing intentional software with it. The capability to do this is rooted in understanding of the problem space, and understanding the generated code.
 
 ## Outsourcing Understanding
 * **Don't assume LLM generated code is production ready**, certainly not in the first pass. LLMs often prioritize functionality over security and maintainability. Review it like any other code. Take responsibility to start improving it yourself, as soon as you get it.
 * **Be extremely careful about LLM code for novel platforms**. LLMs don't understand poorly documented software or novel hardware. Mitigate that risk with incremental roll-out of new code, and additional testing.
-* **Automatically generated documentation**, including Architectural Decision Logs (ADL). Documentation helps you provide context for code, for you and any LLMs.
+* **Automatically generated documentation** without additional human insight is probably low quality, and might even be more noise than signal to the LLM. Be sure to review documentation, prune auto-generated fluff, and insert meaningful context. Code should document itself with intent written into variable names and methods, with purpose/indented-use annotated with comments.
+* **Orchestrating Agentic LLMs** by delegating tasks in parallel can dramatically improve developer productivity. This is not safe for beginners; LLM agents doing all thinking work will deny you learning opportunities, and leave you clueless when things break. When using Agentic workflows, be ready to cannibalize Slop Code for value and start over later. If you are ready to attempt an agent workflow with these risks in mind, ask your LLM to guide you:
 ```
+How can I delegate a software development tasks to an LLM? Be sure to explain how "agents.md" fits into the process.
 ```
-* **Orchestrate Agentic LLMs** by delegating tasks in parallel. This advice is not safe for beginners, because agents doing all work will deny you learning opportunities, and leave you clueless when things break. If you are ready to attempt an agent workflow with these risks in mind, ask your LLM to guide you:
-```
-How can I delegate a software development task to you? Be sure to explain how "agents.md" fits into the process.
-```
-Experiment on the agent's capabilities. Start by delegating well-understood tasks that you can scrutinize yourself, so you can establish a baseline of behavior. Examples to start with:
+* **Experiment to gain understanding of LLM agent's capabilities**. Start by delegating well-understood tasks that you can scrutinize yourself, so you can establish a baseline of behavior. Examples to start with:
 ```
 Replace all debug print statements with proper logging.
 ```
@@ -153,35 +155,26 @@ Identify deprecated function calls, and research replacements. Submit a pull req
 ```
 Review documentation in the code and make sure it describes code behavior accurately.
 ```
-Find the edges of the agent's capabilities by asking for successively more difficult tasks. Take each task's success or failure as an opportunity to learn by asking questions and experimenting on new knowledge.
-* **Pre-mortem theory crafting** can inform and improve software design.
-```
-Where does this design assume latency or user input will stay benign, and in a small range? What circumstances could break those assumptions? How could the software be changed to mitigate these failure cases?
-```
+Find the limits of the agent's capabilities by asking for successively more difficult tasks. Take each task's success or failure as an opportunity to learn by asking questions and experimenting on new knowledge.
 * **Use LLM Agents to do non-programming work on your local computer**. Examples: organize photos and videos, delete old temporarily generated files, find and delete duplicate files, summarize & analyze old logs and texts.
 ```
 I want to use an LLM to do {task_on_my_local_computer}. Explain how I can do that.
 ```
 You can save hours or days of personal time this way, while also practicing the technology.
 
-### Thinking Substitution
+## Thinking Substitution Hazards
 * **Accepting sub-optimal LLM abstractions** will result is poorly written software. LLMs write class hierarchies and patterns without truly understanding why they exist. Do not assume the LLM is correct. Use your understanding to question LLM choices. Provide better choices later as context.
-* **Using LLMs to avoid documentation entirely** is convenient, but it denies LLMs and human developers critical context during problem solving. At the very least, code should document itself with intent written into variable names and methods. Purpose and indented use should also be annotated with comments.
-* **Assuming tests written by LLMs are meaningful** risks false positives. Automatically written tests might not test actual intent, some tests can encode & perpetuate bugs. Audit tests personally to ensure they test intent, not syntax, not a mirror of the implementation, and not enforcement of circumstances from a prototyping environment. Infuse your tests with as much of your wisdom as possible.
+* **Assuming tests written by LLMs are meaningful** risks false positives from tests that don't test actual intent, and instead encode or perpetuate bugs. Audit tests personally to ensure they test intent, not syntax, not a mirror of the implementation, and not enforcement of circumstances from a prototyping environment. Infuse your tests with as much of your wisdom as possible.
 
-### Prompting Mistakes
+## Prompting Mistakes
 * **Adding more text to improve an answer** can easily distract LLMs from problem solving with noise. Context should be information relevant to your goals and the state of your problem. LLMs prefer concise text.
-* **Debugging with insufficient description**. LLMs will spend lots of energy trying to generate missing context, and may solve the wrong problem, or hallucinate a solution to a problem that never existed. Provide as much context for technical problems as possible: error messages, stack traces, function intent, software goals, and concrete data.
-* *Iterating prompts instead of code*. You're avoiding understanding the system that you're building. Develop better understanding so you can correctly diagnose problems.
+* **Debugging with insufficient description** will force LLMs to spend more energy trying to generate missing context. Incorrect context may direct the LLM to solve the wrong problem. Provide technical context for technical problems: error messages, stack traces, function intent, software goals, and concrete data.
+* **Iterating prompts instead of code** probably means you're avoiding understanding the system that you're building. This is the path to Slop Code.
 
-### Wasteful Interaction
-* **Repeated micro questions**, **micro-edits to the same question**, and **asking questions without reading answers** are careless use of compute tokens, and have a negative impact on the LLM system. Wasteful LLM effort has real economic and environmental costs. build a habit of developing questions that are worth asking. 
+## Wasteful Interaction
+* **Repeated micro questions**, **micro-edits to the same question**, and **asking questions without reading answers** are careless uses of compute tokens, and have a negative impact on the LLM system. Wasteful LLM effort has real economic and environmental costs. build a habit of developing questions that are worth asking.
 * **Syntax trivia** is a poor use of LLM hardware. LLMs are not as good (fast/efficient) at verifying code as a compiler running on your own computer. Use your own computer to answer syntax questions wherever you can.
 
-### Hard Limits of LLMs
-* **Novel hardware**. LLMs don't understand poorly documented software or novel hardware. Mitigate that risk with incremental roll-out of new code, and additional testing.
-
-## Three Hard Rules for LLM Use
-* **Assume Conversations are Logged**. Data from your chats can be easily recovered. It could be be sold, or given to third party governments or law enforcement. What you write into another company's LLM can possibly become public. Don't write things you can't justify.
-* **Don't Paste Secrets**. Putting API keys, database credentials, or proprietary PII (Personally Identifiable Information) into an LLM can lead to termination at many companies. Sanitize your context.
+## Special Considerations for Industry
+* **Assume Conversations are Logged**. Data from your chats can be easily recovered, and be privately sold or publicly released. Consider the consequences of that.
 * **Don't Ship Unmodified LLM Output**. Intellectual Property law complexities make using exact copies risky. Create "transformative" work by making your own modifications to LLM results.
