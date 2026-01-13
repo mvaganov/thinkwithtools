@@ -5,7 +5,7 @@ Understanding survives tool changes, failures, and novel problems, making it the
 
 The experimentation process should be familiar to developers. Make a guess, introduce inputs, observe outputs, and compare the results to expectations. This cycle of testing builds the practiced judgment and intuition that distinguishes programmers. It creates reliable progress. Mastery of this skill is an implicit professional expectation. This is how understanding is earned.
 
-**LLMs, by their nature, unintentionally deemphasize experimentation. This is a mental hazard.** Little documentation about testing makes LLMs under-represent it in practice. Consistently good code from LLMs punishes skepticism. The medium makes a choice of convenience for you. It doesn't force understanding, so you must experiment intentionally.
+**LLMs, by their nature, unintentionally deemphasize experimentation. This is a mental hazard.** Little documentation about testing makes LLMs under-represent it in practice. Consistently good code from LLMs punishes user skepticism (because the code does work correctly). The medium makes a choice of convenience for you. It doesn't force understanding, so you must experiment intentionally.
 
 ## Use LLMs Early, Before You Code
 LLMs are not just vending machines for code. The LLM should be used early, while scope is being defined. The tool can help you discover what you don't know (eg: ask an LLM to explain dense terms from this guide). Confusion is a Technical Debt which compounds over time with repeated sub-optimal decisions.
@@ -113,7 +113,7 @@ Act as a malicious QA engineer. What inputs or failures would break this logic t
 ```
 Review the attached code as if you were a Senior Developer looking for style inconsistencies, potential bugs and edge cases, readability improvements, and performance bottlenecks.
 ```
-Be aware that submitting proprietary data to an LLM on the public internet could be cause for termination at many tech companies. You can also setup smaller coding models on a local computer.
+You can also setup smaller coding models on a local computer, to avoid submitting private information to a service on the internet.
 ```
 Guide me through setting up local LLM on my computer, so that I can do code reviews.
 ```
@@ -140,7 +140,7 @@ AI Slop is sloppy content created by generative AI. Slop Code may be functional,
 ## Outsourcing Understanding
 * **Don't assume LLM generated code is production ready**, certainly not in the first pass. LLMs often prioritize functionality over security and maintainability. Review it like any other code. Take responsibility to start improving it yourself, as soon as you get it.
 * **Be extremely careful about LLM code for novel platforms**. LLMs don't understand poorly documented software or novel hardware. Mitigate that risk with incremental roll-out of new code, and additional testing.
-* **Automatically generated documentation** without additional human insight is probably low quality, and might even be more noise than signal to the LLM. Be sure to review documentation, prune auto-generated fluff, and insert meaningful context. Code should document itself with intent written into variable names and methods, with purpose/indented-use annotated with comments.
+* **Automatically generated documentation** will be much higher quality if augmented with human insight. Be sure to review documentation, prune auto-generated fluff, and insert meaningful context. Code should document itself with intent written into variable names and methods, with purpose/indented-use annotated with comments.
 * **Orchestrating Agentic LLMs** by delegating tasks in parallel can dramatically improve developer productivity. This is not safe for beginners; LLM agents doing all thinking work will deny you learning opportunities, and leave you clueless when things break. When using Agentic workflows, be ready to cannibalize Slop Code for value and start over later. If you are ready to attempt an agent workflow with these risks in mind, ask your LLM to guide you:
 ```
 How can I delegate a software development tasks to an LLM? Be sure to explain how "agents.md" fits into the process.
@@ -167,14 +167,11 @@ You can save hours or days of personal time this way, while also practicing the 
 * **Assuming tests written by LLMs are meaningful** risks false positives from tests that don't test actual intent, and instead encode or perpetuate bugs. Audit tests personally to ensure they test intent, not syntax, not a mirror of the implementation, and not enforcement of circumstances from a prototyping environment. Infuse your tests with as much of your wisdom as possible.
 
 ## Prompting Mistakes
-* **Adding more text to improve an answer** can easily distract LLMs from problem solving with noise. Context should be information relevant to your goals and the state of your problem. LLMs prefer concise text.
+* **Adding more text to improve an answer** can easily distract LLMs from problem solving with noise. Context should be information relevant to your goals and the state of your problem. LLMs often respond better when prompts are concise and relevant.
 * **Debugging with insufficient description** will force LLMs to spend more energy trying to generate missing context. Incorrect context may direct the LLM to solve the wrong problem. Provide technical context for technical problems: error messages, stack traces, function intent, software goals, and concrete data.
 * **Iterating prompts instead of code** probably means you're avoiding understanding the system that you're building. This is the path to Slop Code.
-
-## Wasteful Interaction
-* **Repeated micro questions**, **micro-edits to the same question**, and **asking questions without reading answers** are careless uses of compute tokens, and have a negative impact on the LLM system. Wasteful LLM effort has real economic and environmental costs. build a habit of developing questions that are worth asking.
-* **Syntax trivia** is a poor use of LLM hardware. LLMs are not as good (fast/efficient) at verifying code as a compiler running on your own computer. Use your own computer to answer syntax questions wherever you can.
+* **Repeated micro questions**, **micro-edits to the same question**, and **asking questions without reading answers** are careless uses of your time. If you don't know what question to ask, explain your goals to the LLM and ask for help forming a question.
 
 ## Special Considerations for Industry
-* **Assume Conversations are Logged**. Data from your chats can be easily recovered, and be privately sold or publicly released. Consider the consequences of that.
+* **Assume Conversations are Logged**. Data from your chats can be easily recovered, and be privately sold or publicly released. Be cautious about sharing sensitive data with any service on the internet.
 * **Don't Ship Unmodified LLM Output**. Intellectual Property law complexities make using exact copies risky. Create "transformative" work by making your own modifications to LLM results.
