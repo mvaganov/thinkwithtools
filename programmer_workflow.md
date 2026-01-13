@@ -1,3 +1,5 @@
+this content is deprecated. see `llm_workflow_manifesto.md`
+/*
 ## The unavoidable role of testing in software development
 Understanding in software development comes from evidence, not intention. Code is understood when you have an expectation, and then observe how it actually behaves. This process, testing a hypothesis against real data, is foundational to programming.
 
@@ -88,3 +90,4 @@ I have not used other LLMs enough to have a strong opinion. There will be disrup
 * LLMs are not real intelligence, and don't have feelings. You don't need to feel justified to answer its questions or defend yourself against its potentially incorrect assertions.
 * If you keep your mind engaged, your mind will grow stronger and you will be smarter. Skills you practice compound. Skills you don't practice will decay.
 * Senior devs care most about Ownership. Once you hit "Commit", you are the owner of that code. If it breaks in production, "the AI wrote it" is not an acceptable excuse. If you can't explain it, don't commit it. Work with the LLM until you understand.  Ownership means you can explain, modify, and debug code without the LLM.
+*/
