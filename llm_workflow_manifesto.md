@@ -175,3 +175,6 @@ You can save hours or days of personal time this way, while also practicing the 
 ## Special Considerations for Industry
 * **Assume Conversations are Logged**. Data from your chats can be easily recovered, and be privately sold or publicly released. Be cautious about sharing sensitive data with any service on the internet.
 * **Don't Ship Unmodified LLM Output**. Intellectual Property law complexities make using exact copies risky. Create "transformative" work by making your own modifications to LLM results.
+
+## Summary
+I agree with Pablo Picasso, who said "Bad artists copy, great artists steal". I would clarify: Experiment until you own it.
