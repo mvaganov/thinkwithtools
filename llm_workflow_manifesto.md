@@ -1,5 +1,7 @@
 # Part 1: How LLMs Change What It Means to be a Developer
 
+I'm a software development teacher of over 20 years. I've taught thousands, and brought hundreds on a journey to real software development mastery. And recently, I have noticed young developers falling into dangerous intellectual traps with LLMs. This guide is what I think you need to know to navigate this new world of LLMs while becoming expert software developers.
+
 ## LLMs Hurt Understanding by Averting Experimentation
 Understanding survives tool changes, failures, and novel problems, making it the most important commodity a software developer can have. Understanding in software development comes from experimentation: start with an expectation for technology, and then test the expectation by observing actual behavior.
 
