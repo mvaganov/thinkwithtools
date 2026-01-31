@@ -1,6 +1,6 @@
 # Part 1: How LLMs Change What It Means to be a Developer
 
-I'm a software development teacher of over 20 years. I've taught thousands, and brought hundreds on a journey to real software development mastery. And recently, I have noticed young developers falling into dangerous intellectual traps with LLMs. This guide is what I think you need to know to navigate this new world of LLMs while becoming expert software developers.
+I'm a software development teacher of over 20 years. I've taught thousands, and brought hundreds on a journey to real software development mastery. It's become clear to me that developers fall into dangerous intellectual traps with LLMs. This guide is what I think is needed to navigate this new world of LLMs while becoming an expert software developer.
 
 ## LLMs Hurt Understanding by Averting Experimentation
 Understanding survives tool changes, failures, and novel problems, making it the most important commodity a software developer can have. Understanding in software development comes from experimentation: start with an expectation for technology, and then test the expectation by observing actual behavior.
@@ -177,6 +177,7 @@ You can save hours or days of personal time this way, while also practicing the 
 ## Special Considerations for Industry
 * **Assume Conversations are Logged**. Data from your chats can be easily recovered, and be privately sold or publicly released. Be cautious about sharing sensitive data with any service on the internet.
 * **Don't Ship Unmodified LLM Output**. Intellectual Property law complexities make using exact copies risky. Create "transformative" work by making your own modifications to LLM results.
+
 
 ## Summary
 I agree with Pablo Picasso, who said "Bad artists copy, great artists steal". I would clarify: Experiment until you own it.
